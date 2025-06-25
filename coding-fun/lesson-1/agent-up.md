@@ -6,10 +6,10 @@
 ### @explicitHints 1
 
 
-# Program the Agent to move up to the gold plate!
+# エージェントをプログラムして金のプレートまで上に移動させよう！
 
-## Step 1
-Use ``||player:on chat||`` and  ``||agent:agent move||`` commands to program the Agent to move towards the gold plate. You can program the Agent to move **up**. When done, press the **Play** button to compile the code. Go to Minecraft to run your code in game.
+## ステップ 1
+``||player:チャット時||``と``||agent:エージェント移動||``コマンドを使用して、エージェントが金のプレートに向かって移動するようにプログラムします。エージェントを**上**に移動するようにプログラムできます。完了したら、**再生**ボタンを押してコードをコンパイルします。Minecraftに移動してゲーム内でコードを実行してください。
 
 
 

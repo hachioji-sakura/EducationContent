@@ -6,13 +6,13 @@
 ### @explicitHints 1
 
 
-# Program the Agent to move to the gold plate!
+# エージェントをプログラムして金のプレートまで移動させよう！
 
-## Step 1
-Select an ``||player:on chat||`` command and rename it from **run** to **1**. Select an ``||agent: agent move forward||`` block and drag it inside the ``||player:on chat||`` command. Change the **number** of steps the Agent moves to **3**, so that Agent can reach the gold plate. When done, press the **Play** button to compile the code, then go to Minecraft, press **t** and type **1**.
+## ステップ 1
+``||player:チャット時||``コマンドを選択し、名前を**run**から**1**に変更します。``||agent:エージェント前進||``ブロックを選択し、``||player:チャット時||``コマンドの内部にドラッグします。エージェントが金のプレートに到達できるように、エージェントが移動する**歩数**を**3**に変更します。完了したら、**再生**ボタンを押してコードをコンパイルし、Minecraftに移動して**t**を押し、**1**と入力します。
 
 #### ~ tutorialhint 
-You can change the number of steps your Agent will move by changing the number inside the ``||agent: agent move||`` block. You also can use an ``||agent: agent turn||`` block to turn the Agent to the left or right.
+``||agent:エージェント移動||``ブロック内の数字を変更することで、エージェントが移動する歩数を変更できます。また、``||agent:エージェント回転||``ブロックを使用してエージェントを左または右に回転させることもできます。
 
 
 
