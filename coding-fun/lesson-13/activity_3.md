@@ -5,14 +5,14 @@
 ### @explicitHints 1
 
 
-# Building
+# 建築
 
-## Step 1
-``||mobs:Give||`` yourself at least **34 emerald** blocks. Create a new ``||variable||`` and name it **count**.  Get an ``||blocks:on block placed||`` block and set it to **emerald**. Drag the ``||change count||`` block inside the ``||blocks: on block placed||`` and add ``||player: say||`` block. Add ``||count||`` inside the ``||player: say||`` block. This way whenever you place blocks, the game will be counting how many blocks you placed. 
+## ステップ 1
+少なくとも**34個のエメラルド**ブロックを自分に``||mobs:与えて||``ください。新しい``||variable:変数||``を作成し、**count**と名前を付けます。``||blocks:ブロックが置かれた時||``ブロックを取得し、**エメラルド**に設定します。``||変数を増やす||``ブロックを``||blocks:ブロックが置かれた時||``の中にドラッグし、``||player:メッセージを送信する||``ブロックを追加します。``||player:メッセージを送信する||``ブロックの中に``||count||``を追加します。これにより、ブロックを配置するたびに、ゲームが配置したブロックの数をカウントします。
 
 ### ~ tutorialhint 
 
-You can select iron, gold, emerald or diamond. 
+鉄、金、エメラルド、またはダイヤモンドを選択できます。
 
 ```blocks
 let count = 0

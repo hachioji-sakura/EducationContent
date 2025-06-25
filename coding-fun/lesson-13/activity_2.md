@@ -5,10 +5,10 @@
 ### @explicitHints 1
 
 
-# The Climb
+# 登ろう
 
-## Step 1
-Your challenge is to ``||mobs:jump||`` really high to climb up to the inaccessible area. 
+## ステップ 1
+本当に高く``||mobs:ジャンプ||``して、本来届かない場所まで登ってください。 
 
 
 ```ghost

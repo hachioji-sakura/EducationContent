@@ -5,10 +5,10 @@
 ### @explicitHints 1
 
 
-# Make it rain!
+# 雨を降らせよう！
 
-## Step 1
-Make it rain while you dance in Minecraft! To make it happen you will need to use several event handlers. 1. Create your variables, for example: **walk**, **jump** and/or **break**. 2. Select the event handlers, for example ``||player: on player fall||``, ``||player: on player walk||``. 3. Set your new ``||variables||`` to ``||logic: true||`` inside each corresponding event block. 4. Use a ``||loop: forever||`` block and drag an ``||logic: if statement||``  inside of it. Set all your conditions to ``||logic:true||`` and add ``||gameplay: weather||`` block set to  **rain** to it. 
+## ステップ 1
+Minecraftでダンスしながら雨を降らせましょう！これを実現するには、いくつかのイベントハンドラーを使用する必要があります。1. 変数を作成します（例：**walk**、**jump**、**break**）。2. イベントハンドラーを選択します（例：``||player:プレイヤーが落下した時||``、``||player:プレイヤーが歩いた時||``）。3. 対応する各イベントブロック内で新しい``||variables:変数||``を``||logic:真||``に設定します。4. ``||loop:ずっと||``ブロックを使用し、その中に``||logic:もし文||``をドラッグします。すべての条件を``||logic:真||``に設定し、**雨**に設定された``||gameplay:天気||``ブロックを追加します。
 
 ### ~ tutorialHint
 ```blocks

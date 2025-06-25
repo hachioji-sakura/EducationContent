@@ -5,10 +5,10 @@
 ### @explicitHints 1
 
 
-# Lava swim
+# 溶岩遊泳
 
-## Step 1
-Your challenge is to ``||player:swim||`` across the lava lake. Try ``||mobs:applying fire resistance||`` to the **nearest player**.
+## ステップ 1
+あなたの課題は溶岩湖を``||player:泳いで||``渡ることです。**最も近いプレイヤー**に``||mobs:耐火性を適用||``してみてください。
 
 
 
