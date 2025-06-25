@@ -3,16 +3,16 @@
 ### @explicitHints 1
 
 
-# Program the Agent to move along the turtle tracks!
+# エージェントをプログラムしてカメの足跡に沿って移動させよう！
 
-## Step 1
-Move the Agent along the turtle tracks by using an ``||agent: agent move forward||`` block. 
+## ステップ 1
+``||agent:エージェント前進||``ブロックを使用して、エージェントをカメの足跡に沿って移動させます。
 
 #### ~ tutorialhint 
-Try using a ``||loops:repeat||`` block to make the code more efficient.
+``||loops:繰り返し||``ブロックを使用してコードをより効率的にしてみてください。
 
-## Step 2
-When done, press the **Play** button to compile the code. Don't forget to run your code in Minecraft. 
+## ステップ 2
+完了したら、**再生**ボタンを押してコードをコンパイルします。Minecraftでコードを実行することを忘れないでください。
 
 ```blocks
 player.onChat("run", function () {

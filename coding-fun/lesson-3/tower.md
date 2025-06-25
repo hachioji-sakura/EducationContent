@@ -1,1 +1,1 @@
-> Add your code here
+> ここにコードを追加してください

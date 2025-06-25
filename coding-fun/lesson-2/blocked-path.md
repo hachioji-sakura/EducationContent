@@ -6,10 +6,10 @@
 ### @explicitHints 1
 
 
-# Program the Agent to move along the turtle tracks & destroy obstacles!
+# エージェントをプログラムしてカメの足跡に沿って移動し、障害物を破壊させよう！
 
-## Step 1
-Use the Agent to **destroy the tree trunk** that is in the way by using ``||agent: agent destroy||`` & ``||agent:agent collect all||``blocks. Try using a ``||loops:repeat||`` block to make the code more efficient. When done, press the **Play** button to compile the code. Don't forget to run your code in Minecraft. 
+## ステップ 1
+``||agent:エージェント破壊||``と``||agent:エージェント全回収||``ブロックを使用して、邪魔になっている**木の幹を破壊**するためにエージェントを使用します。``||loops:繰り返し||``ブロックを使用してコードをより効率的にしてみてください。完了したら、**再生**ボタンを押してコードをコンパイルします。Minecraftでコードを実行することを忘れないでください。 
 
 
 ```ghost

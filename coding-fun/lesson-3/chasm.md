@@ -5,11 +5,10 @@
 ### @explicitHints 1
 
 
-# The great chasm!
+# 大峡谷！
 
-## Step 1
-Program the Agent to **build a bridge** across the chasm in the ice. Use ``||agent:set block or item||`` to ensure that the Agent has the necessary materials in the inventory. Select the **oak** as a building material & **64** for the **amount of blocks**. ``||loops:while||`` the Agent does **not** detect blocks down, program the Agent to place the oak planks **down** and move **forward** to create a bridge.    
-
+## ステップ 1
+氷の峡谷を渡る**橋を建設**するようにエージェントをプログラムします。``||agent:ブロックまたはアイテムを設定||``を使用して、エージェントがインベントリに必要な材料を持っていることを確認します。建築材料として**オーク**を選択し、**ブロック数**に**64**を設定します。エージェントが下にブロックを**検出しない**間、``||loops:～の間||``を使用して、オークの板を**下**に置き、**前進**して橋を作るようにエージェントをプログラムします。
 
 ```template
 player.onChat("chasm", function () {

@@ -5,13 +5,13 @@
 ### @explicitHints 1
 
 
-# Locate the cub!
+# 子熊を見つけよう！
 
-## Step 1
-Program the Agent to dig a path without knowing how far it goes by using ``||loops:while||`` & ``||agent:agent detect||`` commands. The Agent needs to ``||agent:destroy forward & up||`` for you to be able to walk through all the snow! When done, press the **Play** button to compile the code. Don't forget to run your code in Minecraft. 
+## ステップ 1
+``||loops:～の間||``と``||agent:エージェント検出||``コマンドを使用して、どこまで続くか分からない道を掘るようにエージェントをプログラムします。雪の中をすべて歩けるように、エージェントは``||agent:前方と上を破壊||``する必要があります。完了したら、**再生**ボタンを押してコードをコンパイルします。Minecraftでコードを実行することを忘れないでください。
 
 #### ~ tutorialhint 
-Look at the coding snippets shapes when you snap them together. Use ``||agent:agent move forward||``.
+ブロックを組み合わせるときのコードスニペットの形を見てください。``||agent:エージェント前進||``を使用してください。
 
 ```template
 player.onChat("cub", function () {

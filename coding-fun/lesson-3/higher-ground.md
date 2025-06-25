@@ -5,19 +5,19 @@
 ### @explicitHints 1
 
 
-# Higher Ground!
+# 高い場所！
 
-## Step 1
-Program the Agent to build a tower with **oak** blocks that is **10** blocks high. First, ensure that the Agent has **64** blocks of **oak plank**  using ``||agent:set block or item||`` command. Program the Agent to place oak planks **forward**, **left** & **right** by using ``||agent:agent place||`` block. The Agent needs to **move up** after placing the blocks.  
-
-#### ~ tutorialhint 
-Try using ``||loops:repeat||`` block and change the number to **10**. 
-
-## Step 2
-Program the Agent to move **down** from the tower and construct **ladder** that is **10** blocks high. You need the ladder so that you can climb up!
+## ステップ 1
+**オーク**ブロックで**10**ブロックの高さのタワーを建設するようにエージェントをプログラムします。まず、``||agent:ブロックまたはアイテムを設定||``コマンドを使用して、エージェントが**オークの板**を**64**ブロック持っていることを確認します。``||agent:エージェント設置||``ブロックを使用して、オークの板を**前方**、**左**、**右**に配置するようにエージェントをプログラムします。エージェントはブロックを置いた後、**上に移動**する必要があります。
 
 #### ~ tutorialhint 
-Don't forget to select **64** blocks of **ladder** in the Agent's inventory using ``||agent: agent set block||``, so that the Agent can place the ladder. 
+``||loops:繰り返し||``ブロックを使用して数字を**10**に変更してみてください。
+
+## ステップ 2
+エージェントがタワーから**下に移動**し、**10**ブロックの高さの**はしご**を建設するようにプログラムします。登ることができるようにはしごが必要です！
+
+#### ~ tutorialhint 
+エージェントがはしごを設置できるように、``||agent:エージェントブロック設定||``を使用してエージェントのインベントリに**はしご**を**64**ブロック選択することを忘れないでください。
 
 
 ```ghost

@@ -5,13 +5,13 @@
 ### @explicitHints 1
 
 
-# Separated Family!
+# 離ればなれの家族！
 
-## Step 1
-Program the Agent to build a bridge across the chasm in the ice. Ensure that the Agent has **64** blocks of **oak planks** in the inventory. 
+## ステップ 1
+氷の峡谷を渡る橋を建設するようにエージェントをプログラムします。エージェントがインベントリに**オークの板**を**64**ブロック持っていることを確認してください。
 
 #### ~ tutorialhint 
-Don't forget to use **not** in your **while** loop. Think where you want the Agent to place blocks. 
+**while**ループで**not**を使用することを忘れないでください。エージェントにブロックを置きたい場所を考えてください。
 
 
 ```ghost

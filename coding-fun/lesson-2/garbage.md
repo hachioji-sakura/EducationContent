@@ -6,10 +6,10 @@
 ### @explicitHints 1
 
 
-# Program the Agent to collect all the garbage!
+# エージェントをプログラムしてすべてのゴミを回収させよう！
 
-## Step 1
-Use the Agent to clear the turtle tracks by using ``||agent: agent destroy||`` & ``||agent:agent collect all||``blocks. Try using a ``||loops:repeat||`` block to make the code more efficient. When done, press the **Play** button to compile the code. Don't forget to run your code in Minecraft. 
+## ステップ 1
+``||agent:エージェント破壊||``と``||agent:エージェント全回収||``ブロックを使用して、カメの足跡をきれいにするためにエージェントを使用します。``||loops:繰り返し||``ブロックを使用してコードをより効率的にしてみてください。完了したら、**再生**ボタンを押してコードをコンパイルします。Minecraftでコードを実行することを忘れないでください。 
 
 
 ```ghost
