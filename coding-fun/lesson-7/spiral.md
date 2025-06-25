@@ -5,10 +5,10 @@
 ### @explicitHints 1
 
 
-# Spiral
+# スパイラル
 
-## Step 1
-While the Agent is **inspecting the block forward** and the block is **not** the **gold block**, the Agent needs to **move forward**. If the Agent does **not** detect a block forward, the Agent also needs to move forward, otherwise it needs to **turn left**. When the Agent reaches the **gold block**, it needs to **destroy** and **collect** it. 
+## ステップ 1
+エージェントが**前方のブロックを検査している**間、そのブロックが**金ブロックではない**場合、エージェントは**前進**する必要があります。エージェントが前方にブロックを**検出しない**場合も前進する必要があり、そうでなければ**左折**する必要があります。エージェントが**金ブロック**に到達したら、それを**破壊**して**収集**する必要があります。 
 
 
 ```ghost

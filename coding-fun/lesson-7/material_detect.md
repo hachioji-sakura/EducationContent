@@ -5,10 +5,10 @@
 ### @explicitHints 1
 
 
-# Detecting your first material
+# 最初の材料の検出
 
-## Step 1
-The Agent needs to **destroy** and then **collect** the **gold** block. 
+## ステップ 1
+エージェントは**金**ブロックを**破壊**し、その後**収集**する必要があります。 
 
 ```template
 player.onChat("material", function () {
