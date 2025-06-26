@@ -5,13 +5,13 @@
 ### @explicitHints 1
 
 
-# Bamboo Hideaway
+# 竹の隠れ家
 
-## Step 1
-Program the Agent to plant **3** blocks of bamboo on each side of the sand patch. Add an ``||agent: agent turn||``command to make sure the Agent can complete the activity. 
+## ステップ 1
+砂の区画の全ての辺に**3**ブロックの竹を植えるようにエージェントをプログラムします。
 
 #### ~ tutorialhint
-There should be 2 **repeat** loops, one nested inside the other.
+2つの**くりかえし**ループが必要で、一方を他方の内側に入れる必要があります。
  
 ```ghost
 player.onChat("bamboo", function () {

@@ -5,10 +5,10 @@
 ### @explicitHints 1
 
 
-# Bamboo Border
+# 竹の境界
 
-## Step 1
-There is a starter code that we prepared for you.  Try running it first. The final goal is to plant bamboo along **4** sides of the panda's plot. 
+## ステップ 1
+準備されたコードがあります。まずはそれを実行してみてください。最終目標は、パンダの区画の**4辺**に沿って竹を植えることです。 
 
 ```template
 player.onChat("bamboo", function () {

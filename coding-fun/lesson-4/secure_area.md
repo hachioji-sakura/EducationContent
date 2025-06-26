@@ -5,13 +5,13 @@
 ### @explicitHints 1
 
 
-# Secure the Area
+# エリアを確保しよう
 
-## Step 1
-Program the Agent to construct an **oak fence**. The agent needs to place **oak fence** blocks to the right, destroy obstacles and move forward. The fence should be **17 blocks** long. 
+## ステップ 1
+**オークのフェンス**を建設するようにエージェントをプログラムします。エージェントは**オークのフェンス**ブロックを右に配置し、障害物を破壊して前進する必要があります。フェンスは**17ブロック**の長さにする必要があります。
 
 #### ~ tutorialhint
-Ensure that the Agent places blocks on the right and destroys blocks on the left. 
+エージェントが右にブロックを配置し、左のブロックを破壊することを確認してください。
 
 ```blocks
 player.onChat("fence", function () {

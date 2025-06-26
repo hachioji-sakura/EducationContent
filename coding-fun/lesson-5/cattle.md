@@ -5,10 +5,10 @@
 ### @explicitHints 1
 
 
-# Cattle
+# 家畜
 
-## Step 1
-Look at the starter code and try running it. This code allows you to navigate the Agent without counting blocks. Look at the path the Agent needs to take and make sure you finish the coding sequence with correct turns for the Agent. Make sure that the Agent can reach the **gold plate**.  
+## ステップ 1
+初期コードを見て実行してみてください。このコードを使うと、ブロックを数えずにエージェントを操作できます。エージェントが通る必要のある道を見て、エージェントの向きを正しく変更してください。エージェントが**金のプレート**に到達できることを確認してください。  
 
 ```template
 player.onChat("sheep", function () {

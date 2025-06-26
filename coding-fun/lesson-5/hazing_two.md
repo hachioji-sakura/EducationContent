@@ -6,13 +6,13 @@
 ### @explicitHints 1
 
 
-# Hazing Two
+# 追い払い その2
 
-## Step 1
-Step 1 is to do hazing two.  
+## ステップ 1
+ステップ1は追い払いその2を実行することです。
 
-## Step 2
-When done, press the **Play** button to compile the code. Don't forget to run your code in Minecraft. 
+## ステップ 2
+完了したら、**再生**ボタンを押してコードをコンパイルします。Minecraftでコードを実行することを忘れないでください。
 
 ```blocks
 player.onChat("run", function () {

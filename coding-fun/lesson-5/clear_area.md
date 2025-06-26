@@ -5,10 +5,11 @@
 ### @explicitHints 1
 
 
-# Clear the Foliage!
+# 葉を取り除こう！
 
-## Step 1
-The Agent needs to destroy **8** blocks of foliage moving **forward**. There are **16** rows of foliage that the Agent needs to destroy. The Agent needs to ``||agent:destroy forward||`` and ``||agent:move forward||`` **8** times. 
+## ステップ 1
+エージェントは**前方**に移動しながら**8**ブロックの葉を破壊する必要があります。エージェントが破壊する必要のある葉は**16**列あります。エージェントは``||agent:前を破壊||``と``||agent:前へ移動||``を**8**回実行する必要があります。 
+
 #### ~ tutorialhint 
 ```blocks
 player.onChat("foliage", function () {

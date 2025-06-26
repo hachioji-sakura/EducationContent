@@ -5,10 +5,10 @@
 ### @explicitHints 1
 
 
-# Collaborative activity
+# 協力アクティビティ
 
-## Step 1
-Select the blocks you need to build the right home for the animals. You will find all the blocks we have used throughout the lessons for you to use!
+## ステップ 1
+動物たちの適切な家を建設するために必要なブロックを選択してください。これまでのレッスンで使用したすべてのブロックを利用できます！
 
 
 ```ghost

@@ -4,13 +4,15 @@
 ### @explicitHints 1
 
 
-# Hazing One
+# 追い払い その1
 
-## Step 1
-Set the ``||agent:agent set block||`` to **tripwire** and set the count to **64**. 
+2つのトリップワイヤーフックの間を、トリップワイヤーでつなぎ合わせるプログラムを書きましょう。
 
-## Step 2
-Use the ``||loops:while||`` block and drop a condition inside the ``||loops:while||`` block.  
+## ステップ 1
+``||agent:エージェント ブロック設定||``を**トリップワイヤー**に設定し、**64**個のトリップワイヤーをエージェントに渡します。
+
+## ステップ 2
+``||loops:もし～ならくりかえし||``ブロックを使用し、``||loops:もし～ならくりかえし||``ブロックの中に条件を入れます。
 
 #### ~ tutorialhint
 
@@ -23,8 +25,8 @@ player.onChat("hazing", function () {
 })
 
 ``` 
-## Step 3
-Add ``||agent: agent place||`` and ``||agent: agent move||`` blocks inside the ``||loops:while||`` block. 
+## ステップ 3
+``||loops:もし～ならくりかえし||``ブロックの中に``||agent:置かせる||``と``||agent:移動させる||``ブロックを追加します。
 
 ```blocks
 player.onChat("run", function () {

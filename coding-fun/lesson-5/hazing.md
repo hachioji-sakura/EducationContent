@@ -5,13 +5,13 @@
 ### @explicitHints 1
 
 
-# Hazing 
+# 追い払い
 
-## Step 1
-The Agent needs to set **tripwire** so that wolves won't get in. Set the ``||agent:agent set block||`` to **tripwire** and set the count to **64**. Use the ``||loops:while||`` block and drop a condition inside it.  
+## ステップ 1
+オオカミが入らないようにエージェントに**トリップワイヤー**を設置させる必要があります。``||agent:エージェント ブロック設定||``を**トリップワイヤー**に設定し、個数を**64**に設定します。``||loops:もし～ならくりかえし||``ブロックを使用し、その中に条件を入れます。
 
 #### ~ tutorialhint
-Remember to use **not** in your condition. 
+条件で**ではない**を使用することを忘れないでください。
 
 ```blocks
 player.onChat("hazing", function () {

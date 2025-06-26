@@ -5,13 +5,13 @@
 ### @explicitHints 1
 
 
-# Chicken Coup
+# 鶏小屋
 
-## Step 1
-The Agent needs to place **2** layers of **9** blocks of **iron bars**. There are **4** sides that need to have **iron bars**. Don't forget to use ``||agent:agent move up||``to build the second level.
+## ステップ 1
+エージェントは**鉄格子**の**9**ブロックを**2**層配置する必要があります。**鉄格子**が必要な**4**辺があります。2階層目を建設するために``||agent:エージェントを上に移動||``を使用することを忘れないでください。
 
 #### ~ tutorialhint
-At the end you will have **3** ``||loops:repeat|`` commands nested inside each other. Make sure that the Agent has more than 64 blocks in its inventory!
+最終的に3つの``||loops:くりかえし||``が入れ子になっています。エージェントのインベントリに64ブロック以上あることを確認してください！
 
 ```ghost
 player.onChat("chicken", function () {

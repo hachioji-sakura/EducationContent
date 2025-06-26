@@ -5,13 +5,13 @@
 ### @explicitHints 1
 
 
-# Make the area pretty!
+# エリアをきれいにしよう！
 
-## Step 1
-You need to plant **14 dandelions** along **4** sides of the hideaway. The Agent can plant **14** dandelions on one side. 
+## ステップ 1
+隠れ家の**4辺**に沿って**14個のタンポポ**を植える必要があります。エージェントは片側に**14**個のタンポポを植えることができます。
 
 #### ~ tutorialhint 
-Don't forget to select a count for ``||agent:agent set block||`` command. 
+``||agent:エージェント ブロック設定||``コマンドのカウントを選択することを忘れないでください。
 
 
 ```ghost
