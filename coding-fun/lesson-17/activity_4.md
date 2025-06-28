@@ -5,11 +5,10 @@
 ### @explicitHints 1
 
 
-# Beets!
+# ビート！
 
-## Step 1
-You are provided with three functions: ``||functions: plantSeed||``, ``||functions: plantSection||`` and ``||functions: checkTurn||``. First, create  a new ``||player: on chat||`` command and add your condition: ``||loops:while||`` the Agent is ``||agent:inspecting the block down||``, and it is not a **gold block**, ``||functions: call||`` the necessary functions. 
-
+## ステップ 1
+あなたには、``||functions: plantSeed||``, ``||functions: plantSection||``、および``||functions: checkTurn||``の3つの関数が提供されています。まず、新しい``||player: チャット時||``コマンドを作成し、条件を追加します: ``||loops:while||`` エージェントが``||agent:下のブロックを検査||``していて、それが**金ブロック**でない限り、``||functions:呼び出す||``必要な関数を呼び出します。 
 
 
 ```template

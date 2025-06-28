@@ -5,19 +5,19 @@
 ### @explicitHints 1
 
 
-# Columns!
+# 柱！
 
-## Step 1
-Time to build the aqueducts! First, create ``||variable: length||`` and ``||variable: segments||`` variables. Then ``||variable: set length||`` to **5** and ``||variable: set segments||`` to **6** ``||loops: on start||``. 
+## ステップ 1
+水道橋を建設する時間です！まず、``||variable:長さ||``と``||variable:セグメント||``変数を作成します。次に、``||loops:開始時||``に``||variable:長さを設定||``を**5**に、``||variable:セグメントを設定||``を**6**に設定します。
 
-## Step 2
-Now within an ``||player: on chat command||`` you need to add all the actions that the Agent needs to perform in order to build **1** part: ``||agent: set block pillar of quartz||`` at the count of **64**, ``||agent: place||`` and ``||agent: move forward||``. Water in Minecraft will flow if there is a slope, so the Agent needs to **place left, right and down**. Place all these actions within a ``||loops: repeat||`` loop that **repeats** ``||variable: length||`` times. 
+## ステップ 2
+次に、``||player:チャットコマンド時||``の中で、エージェントが**1**つの部分を建設するために実行する必要のあるすべてのアクションを追加します：``||agent:クォーツの柱ブロックを設定||``を**64**個、``||agent:設置||``と``||agent:前進||``。Minecraftでは、傾斜があると水が流れるため、エージェントは**左、右、下に設置**する必要があります。これらのアクションをすべて``||variable:長さ||``回数**繰り返す**``||loops:くりかえし||``ループの中に配置します。
 
-## Step 3
-Now nest the first ``||loops: repeat||`` loop within another ``||loops: repeat||`` loop that repeats ``||variables:segments||`` times. Try it out in Minecraft!
+## ステップ 3
+次に、最初の``||loops:くりかえし||``ループを、``||variables:セグメント||``回数繰り返す別の``||loops:くりかえし||``ループの中にネストします。Minecraftで試してみてください！
 
 ### ~ tutorialHint
-Add ``||agent: agent move down||`` block before the inner loop to make the code work!
+コードが動作するように、内側のループの前に``||agent:エージェント下移動||``ブロックを追加してください！
 
 ```ghost
 player.onChat("build", function () {

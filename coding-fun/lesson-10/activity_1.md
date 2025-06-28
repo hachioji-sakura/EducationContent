@@ -5,10 +5,10 @@
 ### @explicitHints 1
 
 
-# Surroundings 
+# 周囲の探索
 
-## Step 1
-While  **inspecting the block down** that is **packed ice**, **if** the Agent **detects the block right**, it needs to **move forward**. Otherwise it needs to **move right**. 
+## ステップ 1
+**氷塊**である**下のブロックを検査**している間、エージェントが**右のブロックを検出**した場合、**前進**する必要があります。そうでなければ**右に移動**する必要があります。
 
 
 

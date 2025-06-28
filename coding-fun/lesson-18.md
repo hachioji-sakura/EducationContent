@@ -5,10 +5,10 @@
 ### @explicitHints 1
 
 
-# Beets!
+# ビート！
 
-## Step 1
-It is your time to shine! 
+## ステップ 1
+あなたが輝く時です！
 
 ```ghost
 blocks.onBlockBroken(GRASS, function () {

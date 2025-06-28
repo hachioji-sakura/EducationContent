@@ -5,10 +5,10 @@
 ### @explicitHints 1
 
 
-# Surroundings 
+# 周囲の探索
 
-## Step 1
-Time to work on your skills on the Holodeck!
+## ステップ 1
+ホロデッキでスキルを磨く時間です！
 
 
 

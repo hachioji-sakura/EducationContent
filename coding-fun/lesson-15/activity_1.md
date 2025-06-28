@@ -5,16 +5,16 @@
 ### @explicitHints 1
 
 
-# Mining Quartz!
+# クォーツ採掘！
 
-## Step 1
-Write some code that will **calculate** how many **blocks** you need to build the remaining columns. Here are some facts: there are **6 columns** and each column is **6 blocks high**. Start by creating and setting ``||variable:height||`` and ``||variable:quantity||`` variables to the correct numbers ``||loops: on start||``, then create a ``||variable:total blocks||`` variable. 
+## ステップ 1
+残りの柱を建設するために必要な**ブロック**数を**計算**するコードを書いてください。事実は次のとおりです：**6本の柱**があり、各柱の高さは**6ブロック**です。まず、``||loops:開始時||``に``||variable:高さ||``と``||variable:数量||``変数を作成して正しい数字に設定し、次に``||variable:合計ブロック||``変数を作成します。
 
-## Step 2
-Set up a condition, ``||logic: if||`` the ``||variable:total blocks||`` = ``||variable:height||`` * ``||variable:quantity||``, then ``||player: say||`` "Collected enough blocks!". 
+## ステップ 2
+条件を設定し、``||variable:合計ブロック||`` = ``||variable:高さ||`` * ``||variable:数量||``の場合、``||logic:もし||``文で「十分なブロックが集まりました！」と``||player:言う||``ようにします。
 
-## Step 3
-Now add a ``||variable:change total blocks||`` by 1 command and ``||player: say||`` ``||variable:total blocks||``, so that you know how many blocks you have collected. Make sure to add ``||blocks: pillar of quartz block broken||``, so that you will see the count while breaking blocks. When you are done, you will see the message "Collected enough blocks!". 
+## ステップ 3
+今度は``||variable:合計ブロックを1変更||``コマンドと``||variable:合計ブロック||``を``||player:言う||``を追加して、収集したブロック数を把握できるようにします。ブロックを破壊している間にカウントが表示されるように、``||blocks:クォーツ柱ブロックが壊された時||``を追加してください。完了すると、「十分なブロックが集まりました！」というメッセージが表示されます。
 
 ```ghost
 blocks.onBlockBroken(PILLAR_QUARTZ_BLOCK, function () {

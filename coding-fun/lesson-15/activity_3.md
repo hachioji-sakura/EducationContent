@@ -5,19 +5,19 @@
 ### @explicitHints 1
 
 
-# Pretty things!
+# 美しいもの！
 
-## Step 1
-Your mission is to to construct the alternating pattern of **quartz pillar** and **lapiz lazuli** blocks along the floor border of the bath. Start by creating ``||variable:blockA||`` and ``||variable:blockB||`` variables. Set the ``||variable:blockA variable||`` to a **block of quartz** and ``||variable:blockB variable||`` to a **lapis lazuli block**. Add the commands to the ``||loops: on start||`` block. 
+## ステップ 1
+あなたの任務は、浴場の床の境界に沿って**クォーツの柱**と**ラピスラズリ**ブロックの交互パターンを作ることです。まず、``||variable:ブロックA||``と``||variable:ブロックB||``変数を作成します。``||variable:ブロックA変数||``を**クォーツブロック**に、``||variable:ブロックB変数||``を**ラピスラズリブロック**に設定します。コマンドを``||loops:開始時||``ブロックに追加します。
 
-## Step 2
-``||logic: If||`` ``||count||`` = **0**, then agent needs to set ``||variable:blockA||``, ``||agent:destroy down||``, ``||agent:place down||`` and ``||variable:change the count by 1||``. ``||logic: Else||`` the Agent needs to set ``||blockB||``, place blocks and ``||change count by -1||``.  
+## ステップ 2
+``||logic:もし||`` ``||count||`` = **0**の場合、エージェントは``||variable:ブロックA||``を設定し、``||agent:下を破壊||``、``||agent:下に設置||``して``||variable:カウントを1変更||``する必要があります。``||logic:そうでなければ||``エージェントは``||ブロックB||``を設定し、ブロックを設置して``||カウントを-1変更||``する必要があります。
 
-## Step 3
-The Agent needs to place blocks in a row ``||loops: while||`` it does ``||logic:not||`` ``|| detect||`` a block **forward**. 
+## ステップ 3
+エージェントは**前方**のブロックを``||logic:検出しない||``間、``||loops:もし～ならくりかえし||``でブロックを一列に配置する必要があります。
 
-## Step 4
-There are **4** sides of reservoir that the Agent needs to complete, so add a ``||loops: repeat||`` block. Set the ``||count||`` to **0** before sending the Agent to place blocks.
+## ステップ 4
+エージェントが完成させる必要のある貯水池の**4**つの辺があるため、``||loops:くりかえし||``ブロックを追加します。エージェントをブロック配置に送る前に``||count||``を**0**に設定します。
 
 ```template
 let count = 0

@@ -5,10 +5,13 @@
 ### @explicitHints 1
 
 
-# Repair the Rover 
+# ローバーを修理せよ
 
-## Step 1
-Fix this coding snippet. Here is the objective: while **inspecting** for a block of **air** and **not** finding it, the Agent needs to **move right**. If the Agent finds the block of **lapis lazuli** **in front**, it needs to **move right**, **turn left**, then **move right**. After that the Agent needs to say, "Found the break!" and **place a block of redstone forward**.
+## ステップ 1
+現在のコードを修正してください。目標は次のとおりです：  
+1. **空気**のブロックを**検査**し、それが**見つからない**間、エージェントは**右に移動**する必要があります。
+2. エージェントが**前方**に**ラピスラズリ**ブロックを見つけた場合、**右に移動**、**左回転**してから**右に移動**する必要があります。
+3. その後、エージェントは「破損箇所を発見！」と言い、**前方にレッドストーンブロックを設置**する必要があります。
 
 
 

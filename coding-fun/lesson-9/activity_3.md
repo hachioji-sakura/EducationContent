@@ -5,10 +5,14 @@
 ### @explicitHints 1
 
 
-# Track Down the Rover 
+# ローバーを追跡せよ
 
-## Step 1
-Fix this coding snippet. Here is the objective: while **inspecting forward** for a block of **quartz** and **not** finding it, the Agent needs to **move forward**. If it **detects** a **gold** block **down**, it needs to **turn right**. If it detects a **block of iron down**, it needs to **turn left**. In the end the Agent needs to say, "Found the rover!"
+## ステップ 1
+このコードスニペットを修正してください。目標は次のとおりです：  
+1. **前方を検査**して**クォーツ**ブロックを探し、それが**見つからない**間、エージェントは**前進**する必要があります。
+2. **下**に**金**ブロックを**検出**した場合、**右回転**する必要があります。
+3. **下**に**鉄ブロック**を検出した場合、**左回転**する必要があります。
+4. 最後に、エージェントは「ローバーを発見！」と言う必要があります。
 
 
 

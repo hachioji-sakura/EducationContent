@@ -5,13 +5,13 @@
 ### @explicitHints 1
 
 
-# Mine the resources!
+# 資源を採掘しよう！
 
-## Step 1
-The Agent needs to mine **gold ore** and **iron ore** blocks. Try creating several ``||player:on chat||`` commands that will program the Agent to move in different directions, for example, **forward**, **back**, **right**. Instead of specifying how far you want the Agent to move, you can use variables. When typing the command in in-game chat, type **forward** and **a number**, for example **forward 5** if you want the Agent to **move 5 steps forward**. This way you can change on the fly how many steps the Agent needs to move without changing the code. 
+## ステップ 1
+エージェントは**金鉱石**と**鉄鉱石**ブロックを採掘する必要があります。エージェントが様々な方向（例：**前進**、**後退**、**右**）に移動するようにプログラムする、複数の``||player:チャット時||``コマンドを作成してみてください。エージェントをどこまで移動させたいかを指定する代わりに、変数を使用できます。ゲーム内チャットでコマンドを入力する際、エージェントを**5歩前進**させたい場合は**forward 5**のように**forward**と**数字**を入力します。この方法で、コードを変更することなく、エージェントが移動する必要のある歩数をその場で変更できます。 
 
 ### ~ tutorialHint
-Don't forget to add ``||agent: destroy||`` and ``||agent: collect||`` blocks to program the Agent to mine the minerals. 
+エージェントに鉱物を採掘させるため、``||agent:破壊||``と``||agent:収集||``ブロックを追加することを忘れないでください。 
 
 ```template
 player.onChat("forward", function (num1) {

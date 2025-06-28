@@ -5,10 +5,10 @@
 ### @explicitHints 1
 
 
-# Holodeck 
+# ホロデッキ
 
-## Step 1
-Use this holodeck to sharpen your skills! 
+## ステップ 1
+このホロデッキ（3Dシミュレーション装置）を使用してスキルを磨きましょう！ 
 
 ```ghost
 player.onChat("3", function () {

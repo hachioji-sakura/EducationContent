@@ -5,10 +5,10 @@
 ### @explicitHints 1
 
 
-# Surroundings 
+# 周囲の探索
 
-## Step 1
-While **inspecting the block down** that is **not** **packed ice**, if the Agent **detects the block right**, then it needs to **move forward**. Otherwise it needs to **move right**. Within the same loop, if the Agent **inspects the block down** and it is either **cobblestone** **or** **gravel**, then it needs to **destroy down** and **collect all**. 
+## ステップ 1
+**氷塊ではない**下のブロックを**検査**している間、エージェントが**右のブロックを検出**した場合、**前進**する必要があります。そうでなければ**右に移動**する必要があります。同じループ内で、エージェントが**下のブロックを検査**し、それが**石**または**砂利**の場合、**下を破壊**して**すべて収集**する必要があります。 
 
 
 

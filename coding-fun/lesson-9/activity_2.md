@@ -5,10 +5,10 @@
 ### @explicitHints 1
 
 
-# Deep Stone 
+# 深層の石
 
-## Step 1
-Fix this coding snippet. Here is the Agent's objective: dig down into the surface until it hits a **gold** block on the **left**. On the way down, the Agent will detect if **stone** is in front of it, and collect it.
+## ステップ 1
+現在のコードを修正してください。エージェントの目標は次のとおりです：**左**に**金**ブロックが見つかるまで地表を掘り下げます。下降中に、エージェントは前方に**石**があるかどうかを検出し、あればそれを収集します。
 
 ```template
 player.onChat("dig", function () {

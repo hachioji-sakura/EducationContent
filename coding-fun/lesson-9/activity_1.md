@@ -5,13 +5,17 @@
 ### @explicitHints 1
 
 
-# Locating stone 
+# 石の位置特定
 
-## Step 1
-Fix this coding snippet. Here is what the Agent needs to do: **move** to the **left 4 times**, **destroy down**, **move down**. If the Agent detects a **stone** block forward, it needs to say "Found the stone!", **destroy forward** and **collect all**. If the stone is **not detected**, the Agent needs to say, "No stone here!". Each time after moving down, the Agent needs to **move 1 block up** to the surface. This activity needs to repeat **4** times.
+## ステップ 1
+現在のコードを修正してください。
 
-
-
+エージェントが実行する必要のあることは次のとおりです：  
+1. **左に4回移動**、**下を破壊**、**下に移動**。
+2. もし、エージェントが前方に**石**ブロックを検出した場合、「石を発見！」と言い、**前方を破壊**して**すべて収集**する必要があります。
+3. 石が**検出されない**場合、エージェントは「ここには石がありません！」と言う必要があります。
+4. 下に移動した後は毎回、エージェントは地表に**1ブロック上に移動**する必要があります。
+5. この行動は、**4**回繰り返す必要があります。
 
 
 ```template

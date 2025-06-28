@@ -5,10 +5,10 @@
 ### @explicitHints 1
 
 
-# Reach magma
+# マグマに到達
 
-## Step 1
-Program the Agent to **move forward**. While the Agent **inspects** block **down** and it is **not magma**, the Agent needs to **move down**. 
+## ステップ 1
+エージェントが**前進**するようにプログラムします。もし、エージェントの**下**のブロックが**マグマではない**間、エージェントは**下に移動**する必要があります。 
 
 
 ```ghost

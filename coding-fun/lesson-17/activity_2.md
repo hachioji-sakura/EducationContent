@@ -5,13 +5,13 @@
 ### @explicitHints 1
 
 
-# Build a Town Hall!
+# タウンホールを建てよう！
 
-## Step 1
-We created a function **plantSeed** for you. It is simply the code that you used for the previous activity. Now drag an ``||player: on chat||`` command into the workspace and name it **run**. Add a ``||loops: repeat||`` loop and click on the **Advanced** section then click **Functions** and drag a``||function:call plantSeed||`` function into your loop. Count how many times the Agent needs to repeat **plantSeed** function. 
+## ステップ 1
+**plantSeed**という関数を作成しました。これは、前のアクティビティで使用したコードです。今、``||player: チャット時||``コマンドをワークスペースにドラッグし、名前を**run**にします。``||loops: 繰り返し||``ループを追加し、**高度な**セクションをクリックしてから**関数**をクリックし、``||function:call plantSeed||``関数をループにドラッグします。エージェントが**plantSeed**関数を繰り返す必要がある回数を数えます。
 
-### ~ tutorialHint
-Functions live in the **Advanced** section. It is also a good practice to leave notes about the code that's written, like the one that we left for you about functions. 
+### ~ チュートリアルヒント
+関数は**高度な**セクションにあります。書かれたコードについてのメモを残すことも良い習慣です。これは、関数についてあなたのために残したものと同じです。 
 
 ```template
 /**

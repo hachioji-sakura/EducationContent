@@ -5,10 +5,10 @@
 ### @explicitHints 1
 
 
-# Iron
+# 鉄
 
-## Step 1
-While the Agent **inspects the block down** and this block is not **iron ore**, it needs to **move forward**. If the Agent **detects a block forward**, then it needs to **destroy forward**. When the Agent locates iron, program it to **collect** it. Note that in order to collect a block, Agent needs to destroy it first. 
+## ステップ 1
+もし、エージェントの**下のブロック**が、**鉄鉱石ではない**間、**前進**する必要があります。また、エージェントが**前にブロックを検出**した場合、**前を破壊**する必要があります。エージェントが鉄を見つけたら、それを**収集**するようにプログラムします。
 
 ```ghost
 player.onChat("4", function () {

@@ -5,10 +5,10 @@
 ### @explicitHints 1
 
 
-# Sandcastle!
+# 砂の城！
 
-## Step 1
-Use your coding superpowers to overcome the challenges presented. Remember, there might be a lot of ways to solve them. 
+## ステップ 1
+コーディングスーパーパワーを使って、提示された課題を克服してください。解決方法はたくさんあることを覚えておいてください。 
 
 ```ghost
 player.onTravelled(SNEAK, function () {

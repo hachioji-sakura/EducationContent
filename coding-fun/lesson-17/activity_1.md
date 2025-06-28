@@ -5,10 +5,10 @@
 ### @explicitHints 1
 
 
-# Plant a Seed!
+# 種を植えよう！
 
-## Step 1
-First, interact with the Agent to open its inventory and give it the seeds. Then create ``||player: on chat||`` command and add ``||agent: till forward||`` and ``||agent: place forward||``. 
+## ステップ 1
+まず、エージェントとやり取りしてインベントリを開き、種を与えます。次に``||player:チャット時||``コマンドを作成し、``||agent:前方を耕す||``と``||agent:前方に設置||``を追加します。 
 
 ```ghost
 player.onChat("plantSeed", function () {

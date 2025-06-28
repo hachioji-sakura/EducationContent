@@ -5,10 +5,10 @@
 ### @explicitHints 1
 
 
-# Surroundings 
+# 周囲の探索
 
-## Step 1
-While **inspecting the block down** that is **not packed ice**, program the Agent to locate, **destroy** and **collect** the following blocks: **iron**, **gold**, **emerald** and **diamond**. 
+## ステップ 1
+**氷塊ではない**下のブロックを**検査**している間、次のブロックを見つけて**破壊**し**収集**するようにエージェントをプログラムします：**鉄**、**金**、**エメラルド**、**ダイヤモンド**。
 
 
 

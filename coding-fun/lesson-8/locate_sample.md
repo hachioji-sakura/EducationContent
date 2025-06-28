@@ -5,10 +5,10 @@
 ### @explicitHints 1
 
 
-# Locate the Sample! 
+# サンプルを見つけよう！
 
-## Step 1
-**While** the Agent **inspects the block down** and does **not** find **blue ice**, program the Agent to **destroy** and **move down**. When the Agent locates the **blue ice**, it needs to **destroy down** and **collect** the sample. 
+## ステップ 1
+もし、エージェントの**下のブロック**が、**青氷でない**間、エージェントが**破壊**して**下に移動**するようにプログラムします。エージェントが**青氷**を見つけたら、**下を破壊**してサンプルを**収集**する必要があります。 
 
 ```ghost 
 player.onChat("ice", function () {

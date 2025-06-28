@@ -5,10 +5,10 @@
 ### @explicitHints 1
 
 
-# Build a Town Hall!
+# タウンホールを建てよう！
 
-## Step 1
-Use **stone** as your building material, create **3** ``||variable: variables||`` and name them **width**, **length** and **height**; set the ``||variable: variables||`` to the correct parameters. Don't forget to add your variables to the ``||player: on chat||`` command.
+## ステップ 1
+**石**を建材として使用し、**3**つの``||variable: 変数||``を作成し、それらに**幅**、**長さ**、**高さ**という名前を付けます。``||variable: 変数||``を正しいパラメータに設定することを忘れないでください。変数を``||player: チャット時||``コマンドに追加するのを忘れないでください。
 
 ```ghost
 player.onChat("town_hall", function (length, width, height) {

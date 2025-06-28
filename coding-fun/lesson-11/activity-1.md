@@ -5,12 +5,10 @@
 ### @explicitHints 1
 
 
-# Planet visit
+# 惑星探訪
 
-## Step 1
-Select the right code to run! You have only one attempt, so be careful!
-
-
+## ステップ 1
+実行する正しいコードを選択してください！一度だけの挑戦なので、注意深く選んでください！
 
 ```template
 player.onChat("1", function () {

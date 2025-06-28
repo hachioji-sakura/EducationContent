@@ -5,15 +5,13 @@
 ### @explicitHints 1
 
 
-# Pass the dinosaur!
+# 恐竜をすり抜けよう！
 
-## Step 1
-You need to ``||player:sneak past||`` the dinosaur by making yourself ``||mobs:invisible||``. Can you make this happen? 
-
+## ステップ 1
+自分を``||mobs:透明||``にして恐竜を``||player:こそこそとすり抜ける||``必要があります。これを実現できますか？
 
 ### ~ tutorialHint
-Try pressing shift and W to sneak in Minecraft. 
-
+Minecraftでこそこそ移動するには、ShiftとWを押してみてください。
 
 ```ghost
 player.onTravelled(SNEAK, function () {

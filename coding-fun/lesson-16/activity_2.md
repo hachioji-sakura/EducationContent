@@ -5,14 +5,13 @@
 ### @explicitHints 1
 
 
-# Build a starter house!
+# スターターハウスを建てよう！
 
-## Step 1
-Use the provided sample code to place 1 row of blocks. Then Agent needs to repeat the same procedure **4 times**, then ``||agent: move up||`` and **repeat** it more. Get the ``||variable: height||`` and add it to the ``||loops: repeat||`` block. This code will allow you to build **1** house. 
+## ステップ 1
+提供されたサンプルコードを使用して、1行のブロックを配置します。その後、エージェントは同じ手順を**4回**繰り返し、次に``||agent: 上に移動||``し、さらに繰り返します。``||variable: 高さ||``を取得し、それを``||loops: 繰り返し||``ブロックに追加します。このコードを使用すると、**1**つの家を建てることができます。
 
-
-### ~ tutorialHint
-Don't forget to input your numbers in the in-game chat when typing in the command, for example **house 2 5**. 
+### ~ チュートリアルヒント
+コマンドを入力する際には、ゲーム内チャットで数字を入力するのを忘れないでください。例えば、**house 2 5**のように。
 
 ```template    
  player.onChat("house", function (height, size) {
