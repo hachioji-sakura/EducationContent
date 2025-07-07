@@ -2,15 +2,15 @@
 ### @hideIteration true 
 
 
-# Activity 1 - Which one is right?
+# アクティビティ 1 - どれが正しい？
 
-## Step 1
-Check which one of the commands written on the computer monitors is correct and shows **"Hi"** in the chat when run.
-Press the mouse button on the right side of the monitor in the game if the code runs correctly.
-Click on the hints if you need help.
+## ステップ 1
+コンピュータモニターに書かれたコマンドのうち、どれが正しいかを確認し、実行するとチャットに**「Hi」**と表示されるかを確認してください。
+コードが正しく実行された場合は、ゲーム内のモニターの右側にあるマウスボタンを押してください。
+助けが必要な場合はヒントをクリックしてください。
 
 ### ~ tutorialhint 
-The command structure in Minecraft python is:
+マインクラフトのPythonコマンド構造は次のとおりです:
 ```python
 command_group.command_name()
 ```

@@ -1,13 +1,15 @@
 ### @explicitHints true
 ### @hideIteration true 
-# Activity 4 - Getting across.
+# アクティビティ 4 - 向こう側へ
 
 ```python
 blocks.place(GRASS_BLOCK, pos(0, 0, 0))
 ```
 
-## Step 1
-Write some code to construct a line of floor made out of five **plank oak** blocks to get over to the other side. You will need to change the **first** and **second** coordinate of the **second**
-parameter in the `||blocks: place block at position||` commands. You must make sure that you build at floor height.
+## ステップ 1
+向こう側へ渡るために、5つの**オークの板ブロック**で作られた床の一列を作るコードを書いてください。`||blocks: blockをposに置く||`コマンドで**2番目**のパラメータの**1番目**と**2番目**の座標を変更する必要があります。床と同じ高さで橋を建設することに注意してください。
+
+- オークの板 = oak planks
+
 ### ~ tutorialhint 
-Try using negative numbers as the coordinates.
+座標に負の数を使用してみてください。

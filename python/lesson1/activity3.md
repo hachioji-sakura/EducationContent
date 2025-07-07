@@ -5,13 +5,13 @@
 player.say("Hi")
 ```
 
-# Activity 3 - What is the correct number?
+# アクティビティ 3 - 正しい数字はどれ？
 
-## Step 1
-Look at each of the tv monitors, calculate the sums using code.
-To use the mathematical value of numbers in a command, quotes should **not** be used. For example:
+## ステップ 1
+モニターを見て、コードを使用して、足し算の計算をしてください。
+コードで数値の値を使用する場合、引用符（ " や ' のこと）は**使用しない**必要があります。例えば:
+
 ```python
 player.say(1+1) 
 ```
-
-When this code is run it gives the result **2**. Work out the correct answers of the sums on the tv monitors and select the corresponding buttons.
+このコードを実行すると、結果は**2**になります。テレビモニターの合計の正しい答えを計算し、対応するボタンを選択してください。

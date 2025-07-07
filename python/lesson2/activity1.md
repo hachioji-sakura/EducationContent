@@ -1,13 +1,15 @@
 ### @explicitHints true
 ### @hideIteration true 
-# Activity 1 - Place the correct block.
+# アクティビティ 1 - 正しいブロックを置こう
 
 ```python
 blocks.place(GRASS_BLOCK, pos(0, 0, 0))
 ```
 
-## Step 1
-Place the **grass** and **brick** blocks in the designated areas by using the `||blocks: place block at position||` command. Change the first parameter to the required block type 
-using the code completion tool to select the required block by starting to type its name and selecting the correct option.
+## ステップ 1
+指定されたエリアに**草ブロック**と**レンガブロック**を配置するために、`||blocks: blockをposに置く||`コマンドを使用してください。最初のパラメータを必要なブロックタイプに変更し、コード補完ツールを使用して、名前を入力し始めて正しいオプションを選択してください。
+- 草 = grass
+- レンガ = brick
+
 ### ~ tutorialhint 
-If a block is placed incorrectly use the try again button, to clear and restart the activity, by talking to the NPC. 
+ブロックが間違って配置された場合は、NPCに話しかけて**もう一度試す**ボタンを使用し、アクティビティをクリアして再開してください。 
