@@ -21,6 +21,7 @@
 
 
 ```ghost
+# 公式のコードだが多分間違っている
 player.onChat("tower", function () {
     agent.move(FORWARD, 1)
     agent.setItem(LADDER, 64, 1)
@@ -34,3 +35,21 @@ player.onChat("tower", function () {
 ``` 
 
 
+```ghost
+# こちらを参照
+# コードを実行後、タワーに登ってレッスンクリア
+player.onChat("tower", function () {
+    agent.setItem(PLANKS_OAK, 64, 1)
+    for (let index = 0; index < 10; index++) {
+        agent.place(FORWARD)
+        agent.place(RIGHT)
+        agent.place(LEFT)
+        agent.move(UP, 1)
+    }
+    agent.setItem(LADDER, 10, 1)
+    for (let index = 0; index < 10; index++) {
+        agent.move(DOWN, 1)
+        agent.place(FORWARD)
+    }
+})
+```
