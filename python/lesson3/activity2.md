@@ -10,12 +10,15 @@ blocks.place()
 ```
 # Activity 2 - Ideal planting spot.
 
-## Step 1
-Look at each of the **5** different location variables and see what crops are at these coordinates. Then create
-**5** `||blocks: place block at position||` commands ,with either **PUMPKIN** or **MELON_BLOCK**, at the correct location variable 
-to match the crop at the coordinate. To see the coordinates and coding window at same time, click on the half coding window button in the top left-hand corner. 
+## ステップ 1
+**5つ**の異なる位置変数をそれぞれ確認し、これらの座標にどの作物があるかを見てください。次に、
+座標の作物に合わせて、正しい位置変数に**かぼちゃ**または**メロンブロック**を使用して**5つ**の`||blocks: blockをposに置く||`コマンドを作成してください。座標とコーディングウィンドウを同時に見るには、左上隅のハーフコーディングウィンドウボタンをクリックしてください。
+
+- カボチャ = PUMPKIN
+- メロンブロック = MELON_BLOCK
+
 ### ~ tutorialhint
-blocks.place(**crop type**, **location variable**)
+blocks.place(**作物の種類**, **位置変数**)
 
 
 ```template

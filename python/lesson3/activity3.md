@@ -7,18 +7,17 @@ player.say("hi")
 item +=1
 ```
 
-## Step 1
-Look at tv monitor number 1 and calculate the sum shown by creating a new variable called **cost**. Run the code to show the total cost in the chat.
-Press the matching button for that total. 
+## ステップ 1
+テレビモニター1を見て、**cost**という新しい変数を作成して表示されている合計を計算してください。コードを実行してチャットに総コストを表示してください。
+その合計に対応するボタンを押してください。
 
-## Step 2
-Look at tv monitor number two. You now need to add a new crop, **pumpkin**. Do this by creating a variable called **pumpkin** and then set its value
-as a formula that is the difference between the variables **berries** and **apple**. Add the new variable **pumpkin** to the variable **cost**. Then run the 
-code and press the correct button. 
+## ステップ 2
+テレビモニター2を見てください。新しい作物**pumpkin**を追加する必要があります。**pumpkin**という変数を作成し、その値を変数**berries**と**apple**の差として設定してください。新しい変数**pumpkin**を変数**cost**に追加してください。その後、
+コードを実行して正しいボタンを押してください。
 
-## Step 3 
-Look at the last tv monitor, the value of the crops **apple** and **melon** have now changed. **Apple** has increased in price by **2**, 
-and **melon** has decreased in price by **3**. Account for this change in your code by using **+=** and **-=** operators.
+## ステップ 3 
+最後のテレビモニターを見てください。作物**apple**と**melon**の値が変更されました。**Apple**は価格が**2**上がり、
+**melon**は価格が**3**下がりました。**+=**と**-=**演算子を使用してコードでこの変更を反映してください。
 
 ```template
 apple = 10
