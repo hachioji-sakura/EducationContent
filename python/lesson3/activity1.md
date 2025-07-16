@@ -16,18 +16,18 @@
 コードを実行し、チャットと同じ順序で果物ボタンを押して、すべてのライトが点灯するまで続けてください。 
 
 ```template
-//Replace the lines below with your code #
+// # の行を正しいコードに置きかえましょう。
 a = "berries"
-//variable b | Step 1  
-//variable c | Step 1  
+//ステップ1：変数b  
+//ステップ2：変数c
 d = a
-//fruit variable      | Step 2  
+//ステップ2：fruit変数
 player.say(fruit)
 
-//fruit variable      | Step 2  
+//ステップ2：fruit変数
 player.say(fruit)
 
-//fruit variable      | Step 2  
+//ステップ2：fruit変数
 player.say(fruit)
 
 fruit = d
