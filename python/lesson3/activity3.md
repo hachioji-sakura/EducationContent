@@ -24,10 +24,23 @@ apple = 10
 melon = 15
 berries = 20
 potato = 2
-//Replace the lines below with your code #
-//replace with pumpkin variable | Step 2
-//apple change                          | Step 3
-//melon change                          | Step 3
-//cost variable        | Step 1
+//# の行を正しいコードに置きかえましょう。
+//pumpkin 変数      | ステップ 2
+//appleの変更       | ステップ 3
+//melonの変更       | ステップ 3
+//cost変数          | ステップ 1
 player.say(cost)
 ``` 
+
+```ghost
+apple = 10
+melon = 15
+berries = 20
+potato = 2
+# Replace the lines below with your code #
+pumpkin = berries - apple
+apple += 2                          
+melon -= 3
+cost = apple + melon + berries * 2 + potato + pumpkin
+player.say(cost)
+```
