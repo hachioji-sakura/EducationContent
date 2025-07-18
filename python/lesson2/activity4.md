@@ -13,3 +13,11 @@ blocks.place(GRASS_BLOCK, pos(0, 0, 0))
 
 ### ~ tutorialhint 
 座標に負の数を使用してみてください。
+
+```ghost
+blocks.place(PLANKS_OAK, pos(-1, -1, 0))
+blocks.place(PLANKS_OAK, pos(-2, -1, 0))
+blocks.place(PLANKS_OAK, pos(-3, -1, 0))
+blocks.place(PLANKS_OAK, pos(-4, -1, 0))
+blocks.place(PLANKS_OAK, pos(-5, -1, 0))
+```

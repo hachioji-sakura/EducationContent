@@ -17,3 +17,17 @@ blocks.block_with_data(GRASS_BLOCK, 0)
 1 = E（東）   
 2 = N（北）  
 3 = S（南）
+
+```ghost
+# 1段目
+blocks.place(BRICKS, pos(0, 0, 1))
+blocks.place(BRICKS, pos(0, 0, 2))
+blocks.place(BRICKS, pos(0, 0, 3))
+
+# 2段目
+blocks.place(BRICKS, pos(0, 1, 2))
+blocks.place(BRICKS, pos(0, 1, 3))
+
+# 3段目
+blocks.place(BRICKS, pos(0, 2, 3))
+```
