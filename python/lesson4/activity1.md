@@ -1,6 +1,6 @@
 ### @explicitHints true
 ### @hideIteration true 
-# Activity 1 - Animal categorizing.
+# アクティビティ 1 - 動物の分類
 
 ```python
 blocks.place()
@@ -8,13 +8,12 @@ mobs.spawn()
 world(0, 0, 0)
 ```
 
-## Step 1
-Write some code with a list, named **My_list**, of the animals going from **left** to **right** in the Minecraft world. 
-Place **4** more `||mobs:spawn mob at position||` commands after the one that's already given. Use the information from the signs 
-on the pens to complete these commands. 
+## ステップ 1
+**My_list**という名前のリストを使用して、Minecraftワールドで**左**から**右**に並んでいる動物のコードを書いてください。
+すでに与えられているものの後に、さらに**4つ**の`||mobs:spawn mob at position||`コマンドを配置してください。囲いの看板の情報を使用して、これらのコマンドを完成させてください。
 
 ### ~ tutorialhint 
-Remember that list positions start from zero. 
+リストの位置は0から始まることを覚えておいてください。
 
 ```template 
 location1 = world(-2, 40, -11)
@@ -22,13 +21,13 @@ location2 = world(-2, 40, -5)
 location3 = world(-8, 40, -0)
 location4 = world(-13, 40, -5)
 location5 = world(-13, 40, -11)
-//Replace the lines below with your code #   
+//# の行を正しいコードに置きかえましょう。   
 
-//list of animals 
+//動物のリスト
 
 mobs.spawn(My_list[0], location1)
-//spawn the third mob from the list at location2
-//spawn the fifth mob from the list at location3
-//spawn the second mob from the list at location4
-//spawn the fourth mob from the list at location5
+//リストから3番目の動物をlocation2でスポーンさせる
+//リストから5番目の動物をlocation3でスポーンさせる
+//リストから2番目の動物をlocation4でスポーンさせる
+//リストから4番目の動物をlocation5でスポーンさせる
 ```

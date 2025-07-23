@@ -1,37 +1,37 @@
 ### @explicitHints true
 
-# Activity 3 - What is the cats name?
+# アクティビティ 3 - 猫の名前は何？
 
 ```python
 player.say("hi")
 ```
 
-## Step 1
-Set the last name in the list of cat names to now equal the string **Shadow**. 
-Change the value inside the `||player:say||` command so that it displays the **last** name in the list. 
-Then press the **select a cat** button and choose the cat shown in the chat.   
+## ステップ 1
+猫の名前リストの最後の名前を文字列**Shadow**に設定してください。
+`||player:say||`コマンド内の値を変更して、リストの**最後**の名前を表示するようにしてください。
+その後、**猫を選択する**ボタンを押して、チャットに表示された猫を選んでください。   
 ### ~ tutorialhint 
-To change a value in a list use: List_Name[positional value] = "New Cat Name" .
+リストの値を変更するには: List_Name[位置の値] = "新しい猫の名前" を使用してください。
 
-## Step 2
-Sort the list of cat names alphabetically using the **sort** method. 
-Then change the value inside the `||player:say||` command so that it displays the **fourth** name in the list.   
-Don't forget, lists count from 0, so the 4th item won't be `Cat_Names[4]`.    
-Then press the **select a cat** button and choose the cat shown in the chat.   
+## ステップ 2
+**sort**メソッドを使用して猫の名前のリストをアルファベット順に並べ替えてください。
+その後、`||player:say||`コマンド内の値を変更して、リストの**4番目**の名前を表示するようにしてください。
+忘れないでください、リストは0から数えるので、4番目のアイテムは`Cat_Names[4]`ではありません。    
+その後、**猫を選択する**ボタンを押して、チャットに表示された猫を選んでください。   
 ### ~ tutorialhint 
-Remember that list positions start from zero. 
+リストの位置は0から始まることを覚えておいてください。
 
-## Step 3
-Reverse the list of cat names using the **reverse** method. 
-Keep the same value inside the `||player:say||` command.
-Then press the **select a cat** button and choose the cat shown in the chat.   
+## ステップ 3
+**reverse**メソッドを使用して猫の名前のリストを逆順にしてください。
+`||player:say||`コマンド内の値は同じままにしてください。
+その後、**猫を選択する**ボタンを押して、チャットに表示された猫を選んでください。   
 
 ```template
 Cat_Names= ["Smokey", "Oreo", "Sammy", "Patch", "Princess", "Snowy"]
-//Replace the lines below with your code #   
-//Change the last name to shadow           | Step 1
-//Sort the names alphabetically in the list         | Step 2
-//Reverse all names                                          | Step 3 
-//Change the value of the list below | Step 1,2,3
+//# の行を正しいコードに置きかえましょう。   
+//最後の名前をshadowに変更する           | ステップ 1
+//リストの名前をアルファベット順に並べ替える         | ステップ 2
+//すべての名前を逆順にする                          | ステップ 3 
+//下のリストの値を変更する | ステップ 1,2,3
 player.say(Cat_Names[0])  
 ```
