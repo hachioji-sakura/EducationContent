@@ -1,5 +1,5 @@
 ### @explicitHints true
-# Activity 3 - Cleaning up.
+# アクティビティ 3 - 片付け
 
 ```python
 for i in range(2):
@@ -9,30 +9,29 @@ agent.move(FORWARD, 5)
 agent.drop_all(FORWARD)
 ```
 
-## Step 1
-**Part 1:** Write some code so that the Agent will go over every block of the small carpet and pick up the dirt.
+## ステップ 1
+**パート 1:** エージェントが小さなカーペットのすべてのブロックを通り、汚れを拾うようなコードを書いてください。
 ### ~ tutorialhint 
-Don't forget that, in this case, two loops should not have the same variable name.
+この場合、2つのループが同じ変数名を持つべきではないことを忘れないでください。
 
-## Step 2
-**Part 2:** Edit the same code so that the Agent does the same thing but for the larger carpet. Do this by repeating the code **3** times,
-using a `||loops:for||` loop. At the end try to make the Agent drop all of the dirt in the trash to its **right**. 
+## ステップ 2
+**パート 2:** 同じコードを編集して、エージェントが大きなカーペットに対して同じことを行うようにしてください。`||loops:for||`ループを使用してコードを**3**回繰り返してこれを行ってください。最後に、エージェントにすべての汚れを**右**のゴミ箱にドロップさせてみてください。
 ### ~ tutorialhint 
-Remember that you will need to use double indentation in your code.
+コードで二重インデントを使用する必要があることを覚えておいてください。
 
 ```template
-//Replace the lines below with your code #    
-//loop number 3                                 | Part 2
-//loop number 1                        | Part 1
+//# の行を正しいコードに置きかえましょう。    
+//ループ番号3                                 | パート 2
+//ループ番号1                        | パート 1
 agent.collect_all()
 agent.move(FORWARD, 1)
-//end of loop 1
+//ループ1の終了
 agent.move(RIGHT, 1)
-//loop number 2                        | Part 1
-//make the Agent collect all           | Part 1  
-//make the Agent move back             | Part 1  
-//end of loop 2
-//make the Agent move right                     | Part 2
-//end of loop 3  
-//make the Agent drop all to the right          | Part 2  
+//ループ番号2                        | パート 1
+//エージェントにすべてを収集させる           | パート 1  
+//エージェントを後ろに移動させる             | パート 1  
+//ループ2の終了
+//エージェントを右に移動させる                     | パート 2
+//ループ3の終了  
+//エージェントにすべてを右にドロップさせる          | パート 2  
 ```
