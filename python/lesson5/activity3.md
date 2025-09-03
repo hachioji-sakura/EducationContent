@@ -14,10 +14,39 @@ agent.drop_all(FORWARD)
 ### ~ tutorialhint 
 この場合、2つのループが同じ変数名を持つべきではないことを忘れないでください。
 
+```ghost
+# Agentの向きによって、コメントの指示と方向を変える必要があることに注意
+for i in range(7):
+    agent.collect_all()
+    agent.move(BACK, 1)
+# ループ1の終了
+agent.move(LEFT, 1)
+# ループ番号2                        | パート 1
+for i in range(7):
+    agent.collect_all()
+    agent.move(FORWARD, 1)
+# エージェントにすべてを収集させる           | パート 1  
+# エージェントを後ろに移動させる             | パート 1  
+```
+
 ## ステップ 2
 **パート 2:** 同じコードを編集して、エージェントが大きなカーペットに対して同じことを行うようにしてください。`||loops:for||`ループを使用してコードを**3**回繰り返してこれを行ってください。最後に、エージェントにすべての汚れを**右**のゴミ箱にドロップさせてみてください。
 ### ~ tutorialhint 
 コードで二重インデントを使用する必要があることを覚えておいてください。
+
+```ghost
+for j in range(3):
+    for i in range(7):
+        agent.collect_all()
+        agent.move(BACK, 1)
+    agent.move(LEFT, 1)
+    for i in range(7):
+        agent.collect_all()
+        agent.move(FORWARD, 1)
+    agent.move(LEFT, 1)
+agent.move(LEFT, 1)
+agent.drop_all(LEFT)
+```
 
 ```template
 //# の行を正しいコードに置きかえましょう。    
