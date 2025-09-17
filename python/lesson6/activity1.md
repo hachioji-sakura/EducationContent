@@ -1,6 +1,6 @@
 ### @explicitHints true
 
-# Activity 1 -  Stop and go.
+# アクティビティ 1 - 停止と進行
 
 ```python
 loops.pause(2000)
@@ -12,31 +12,31 @@ if True:
 agent.detect(AgentDetection.BLOCK, FORWARD)
 ```
 
-## Step 1
-**Part 1:** Write some code so that the Agent will only move when there **is** a block on its left side. 
-Use a `||agent: agent detect||` command for the condition: 
+## ステップ 1
+**パート 1:** エージェントが左側にブロックが**ある**時のみ移動するようなコードを書いてください。
+条件に`||agent: agent detect||`コマンドを使用してください:
 ```python
 agent.detect(AgentDetection.BLOCK, LEFT)
 ```
 
-## Step 2
-**Part 2:** Edit the code so that the Agent moves when there **no** block to its left. 
-Do this by adding a **not** operator before the condition. 
+## ステップ 2
+**パート 2:** エージェントが左側にブロックが**ない**時に移動するようにコードを編集してください。
+条件の前に**not**演算子を追加してこれを行ってください。
 
-## Step 3
-**Part 3:** Make the Agent move again after the `||loops:pause||` command to reach the last gold block.
+## ステップ 3
+**パート 3:** `||loops:pause||`コマンドの後に、最後の金ブロックに到達するためにエージェントを再び移動させてください。
 
 ### ~ tutorialhint
-**1000** ms is **1** second.
+**1000**ミリ秒は**1**秒です。
 
 ```template
-//Replace the lines below with your code #    
-//for loop set to 7                            |Part 1
-//Add the operator NOT to the condition below          |Part 2 
-//if conditional with an Agent detect condition|Part 1
-//Make the Agent move forward                  |Part 1
-//if conditional with an Agent detect condition                |Part 3
+//# の行を正しいコードに置きかえましょう。    
+//forループを7に設定                            |パート 1
+//以下の条件にNOT演算子を追加          |パート 2 
+//エージェント検出条件を持つif条件文|パート 1
+//エージェントを前方に移動させる                  |パート 1
+//エージェント検出条件を持つif条件文                |パート 3
 loops.pause(2000)
-//Make the Agent move forward                                  |Part 3
-//End of loop
+//エージェントを前方に移動させる                                  |パート 3
+//ループの終了
 ```

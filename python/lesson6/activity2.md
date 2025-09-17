@@ -1,6 +1,6 @@
 ### @explicitHints true
  
-# Activity 2 -  Is it left, or right? 
+# アクティビティ 2 - 左か右か？
 
 ```python
 agent.inspect(AgentInspection.BLOCK, FORWARD)
@@ -12,35 +12,32 @@ if True:
       pass
 ```
 
-## Step 1
-**Part 1:** Write some code, using an `||logic:if else||` conditional, to make the Agent turn left when it reaches the sign and
-then move forward onto the gold block. Use an `||agent:agent inspect||` command as the condition and compare it to the variable **left**.
-The `||agent:agent inspect||` command looks like: 
+## ステップ 1
+**パート 1:** `||logic:if else||`条件文を使用して、エージェントが看板に到達したときに左に曲がり、その後金ブロックの上に前進するようなコードを書いてください。条件として`||agent:agent inspect||`コマンドを使用し、変数**left**と比較してください。
+`||agent:agent inspect||`コマンドは次のようになります:
 ```python
 agent.inspect(AgentInspection.BLOCK, FORWARD)
 ```
-Use the variables already provided in your code: left = BLUE_GLAZED_TERRACOTTA, right = PINK_GLAZED_TERRACOTTA
+コードで既に提供されている変数を使用してください: left = BLUE_GLAZED_TERRACOTTA, right = PINK_GLAZED_TERRACOTTA
 ### ~ tutorialhint 
-To check if two values are equal, use **==**.
+2つの値が等しいかどうかを確認するには、**==**を使用してください。
 
-## Step 2
-**Part 2:** Edit the code so that the Agent turns in both directions until it reaches the gold block. Do this by adding an **elif**
-conditional in between the **if** and **else** parts.
+## ステップ 2
+**パート 2:** エージェントが金ブロックに到達するまで両方向に曲がるようにコードを編集してください。**if**と**else**の部分の間に**elif**条件文を追加してこれを行ってください。
 ### ~ tutorialhint 
-Use the **elif** conditional with an `||agent:agent inspect||` command
-as the condition and compare it to the variable **right**.
+`||agent:agent inspect||`コマンドを条件として持つ**elif**条件文を使用し、変数**right**と比較してください。
 
 ```template
 left = BLUE_GLAZED_TERRACOTTA
 right = PINK_GLAZED_TERRACOTTA
-//Replace the lines below with your code #
-//Change value of loop below from 9 to 21                     |Part 2
-//for loop set to 9                                   |Part 1
-//if else conditional with an Agent inspect condition |Part 1
+//# の行を正しいコードに置きかえましょう。
+//以下のループの値を9から21に変更                     |パート 2
+//forループを9に設定                                   |パート 1
+//エージェント検査条件を持つif else条件文 |パート 1
 agent.turn(LEFT_TURN)
-//elif conditional with an Agent inspect condition            |Part 2
-//Make the agent turn right                                   |Part 2
-//else part of the if else conditional                |Part 1
-//Make the agent move forward                         |Part 1
-//End of loop                                         |Part 1
+//エージェント検査条件を持つelif条件文            |パート 2
+//エージェントを右に曲げる                                   |パート 2
+//if else条件文のelse部分                |パート 1
+//エージェントを前方に移動させる                         |パート 1
+//ループの終了                                         |パート 1
 ```
