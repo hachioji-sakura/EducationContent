@@ -8,7 +8,9 @@
 # ビート！
 
 ## ステップ 1
-あなたには、``||functions: plantSeed||``, ``||functions: plantSection||``、および``||functions: checkTurn||``の3つの関数が提供されています。まず、新しい``||player: チャット時||``コマンドを作成し、条件を追加します: ``||loops:while||`` エージェントが``||agent:下のブロックを検査||``していて、それが**金ブロック**でない限り、``||functions:呼び出す||``必要な関数を呼び出します。 
+あなたには、``||functions: plantSeed||``, ``||functions: plantSection||``、および``||functions: checkTurn||``の3つの関数が提供されています。まず、新しい``||player: チャットコマンド||``を作成し、以下のように条件を追加します。
+
+ ``||loops:もし〜ならくりかえし||``を使用して、``||agent:エージェントの下のブロック||``が、**金ブロック**でない間、``||functions:呼び出す||``必要な関数を呼び出します。 
 
 
 ```template
@@ -21,22 +23,19 @@ function plantSection () {
     }
     agent.move(FORWARD, 1)
 }
- /**
- * The code was modified to not place seeds if there's no block under the Agent.
- */
+
 function plantSeed () {
     agent.till(FORWARD)
     agent.move(FORWARD, 1)
-    if (agent.detect(AgentDetection.Block, DOWN)) {
-        agent.place(DOWN)
-    }
+    agent.place(DOWN)
+
 }
 function checkTurn () {
     if (agent.inspect(AgentInspection.Block, DOWN) == LAPIS_LAZULI_BLOCK) {
         agent.turn(RIGHT_TURN)
         agent.move(FORWARD, 1)
         agent.turn(RIGHT_TURN)
-    } else if (agent.inspect(AgentInspection.Block, DOWN) == BLOCK_OF_QUARTZ) {
+    } else {
         agent.turn(LEFT_TURN)
         agent.move(FORWARD, 1)
         agent.turn(LEFT_TURN)
