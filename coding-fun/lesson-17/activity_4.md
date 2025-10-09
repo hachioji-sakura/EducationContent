@@ -46,6 +46,9 @@ function checkTurn () {
 
 
 ```ghost
+// このコース、金ブロックがないがクリアはできる。
+// ビートを全部植えた状態で、コードを再度開いたらなぜかクリアできた。
+
 player.onChat("plant", function () {
     while (agent.inspect(AgentInspection.Block, DOWN) != GOLD_BLOCK) {
         plantSection()
@@ -58,7 +61,7 @@ function checkTurn () {
         agent.turn(RIGHT_TURN)
         agent.move(FORWARD, 1)
         agent.turn(RIGHT_TURN)
-    } else if (agent.inspect(AgentInspection.Block, DOWN) == BLOCK_OF_QUARTZ) {
+    } else  {
         agent.turn(LEFT_TURN)
         agent.move(FORWARD, 1)
         agent.turn(LEFT_TURN)
