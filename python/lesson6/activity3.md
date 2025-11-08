@@ -13,9 +13,26 @@ if True:
 ```
 
 ## ステップ 1
-エージェントがコースを通り抜ける際に、ランダムに配置されたブロックを検出して回避するようなコードを書いてください。これを行うには、間に**elif**条件文を持つ`||logic:if else||`条件文を使用してください。**if**条件には、間に**and not**演算子を持つ2つの`||agent:agent detect||`コマンドを使用してください。**elif**条件には、間に**and**演算子を持つ2つの`||agent:agent detect||`コマンドを使用してください。**and not**演算子を持つ2つの条件の例:
+エージェントがコースを通り抜ける際に、ランダムに配置されたブロックを検出して回避するようなコードを書いてください。
+
+`||logic:if else||`条件文を使用してください。**if**条件や、**elif**条件には、間に**and**演算子を持つ2つの`||agent:agent detect||`コマンドを使用してください。
+
+**and not**演算子を持つ2つの条件の例:
+
 ```python
 agent.detect(AgentDetection.BLOCK, DIRECTION) and not agent.detect(AgentDetection.BLOCK, DIRECTION)
+```
+
+DIRECTIONには、方向（LEFT, RIGHT, FORWARD, BACK）を指定してください。
+
+```ghost
+for i in range(23):
+    if agent.detect(AgentDetection.BLOCK, FORWARD) and not agent.detect(AgentDetection.BLOCK, LEFT):
+        agent.move(LEFT, 1)
+    elif agent.detect(AgentDetection.BLOCK, FORWARD) and not agent.detect(AgentDetection.BLOCK, RIGHT):
+        agent.move(RIGHT, 2)
+    else:
+        agent.move(FORWARD, 1)
 ```
 
 ### ~ tutorialhint 
