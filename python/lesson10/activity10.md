@@ -1,7 +1,7 @@
 ### @explicitHints true
 ### @hideIteration true 
 
-# Do I need to list it out? 
+# リストにする必要がある？ 
 
 ```python
 agent.move(FORWARD, 5)
@@ -26,11 +26,10 @@ while True:
     pass
 ```
 
-## Step 1
-You have been given a list. Delete the quotes (**'**) from the begining and end of each line. To find what block type the Agent should stand on, **sort** the list alphabetically
-and get the **second** block from the list. Stand on the correct block type and press the button to teleport the Agent there. 
-To find what block type your player should stand on **reverse**  the list and **pop** the **fourth** block in the list. 
-Get the **sixth** block from the list and stand on that block. 
+## ステップ 1
+リストが与えられています。各行の最初と最後からクォート（**'**）を削除してください。エージェントが立つべきブロックタイプを見つけるために、リストをアルファベット順に**ソート**し、リストから**2番目**のブロックを取得してください。正しいブロックタイプの上に立ち、ボタンを押してエージェントをそこにテレポートしてください。
+プレイヤーが立つべきブロックタイプを見つけるために、リストを**逆順**にし、リストの**4番目**のブロックを**pop**してください。
+リストから**6番目**のブロックを取得し、そのブロックの上に立ってください。
 
 ```template
 'block_list = ["DIAMOND", "ICE", "EMERALD", "STONE", "WOOD", "GOLD", "QUARTZ"]'

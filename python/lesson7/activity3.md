@@ -1,6 +1,6 @@
 ### @explicitHints true
 
-# Activity 3 - Home reconstruction. 
+# アクティビティ 3 - 家の再建
 
 ```python
 agent.turn(LEFT_TURN)
@@ -11,32 +11,30 @@ while True:
       pass
 ```
 
-## Step 1
-**Part 1:** Write some code to make the Agent follow the guideline of Redstone dust and place blocks to its left to make the small house's foundation.
-Use **two** `||loops:while||` loops with **two** sequences, one for the straight sections and one for the outside corners. 
+## ステップ 1
+**パート 1:** エージェントがレッドストーンダストのガイドラインに従い、左側にブロックを配置して小さな家の基礎を作るようなコードを書いてください。
+**2つ**のシーケンスを持つ**2つ**の`||loops:while||`ループを使用してください。1つは直線部分用、もう1つは外角用です。
 
-## Step 2 
-**Part 2:** Add to the code to make the Agent build the foundation of a larger house. Write a additional `||loops:while||` loop with 
-an additional sequences for the inside corners.  
+## ステップ 2 
+**パート 2:** エージェントがより大きな家の基礎を建設するようにコードに追加してください。内角用の追加シーケンスを持つ追加の`||loops:while||`ループを書いてください。
 ### ~ tutorialhint 
-When writing the sequence for the inside corners it needs to include a part where 
-the Agent needs to move one block beyond the outline to place a block, and then move back. 
+内角用のシーケンスを書く時、エージェントがブロックを配置するために輪郭を1ブロック超えて移動し、その後戻る部分を含める必要があります。
 
 ```template
-//Replace the lines below with your code #    
-//While loop 1 with an Agent detect condition |Part 1
-//Make the Agent place a block to its left    |Part 1       
-//Make the Agent move forward                 |Part 1 
-//While loop 2 with an Agent detect condition |Part 1
+//# の行を正しいコードに置きかえましょう。    
+//エージェント検出条件を持つWhileループ1 |パート 1
+//エージェントに左側にブロックを配置させる    |パート 1       
+//エージェントを前方に移動させる                 |パート 1 
+//エージェント検出条件を持つWhileループ2 |パート 1
 agent.turn(LEFT_TURN)
-//Make the Agent move forward                 |Part 1
-//End of while loop 2
-//While loop 3 with an Agent detect condition         |Part 2
-//Make the Agent place a block to its left            |Part 2        
-//Make the Agent move forward                         |Part 2
-//Make the Agent place a block to its left            |Part 2        
-//Make the Agent move back                            |Part 2
-//Make the Agent turn right                           |Part 2                 
-//End of while loop 3
-//End of while loop 1                        
+//エージェントを前方に移動させる                 |パート 1
+//whileループ2の終了
+//エージェント検出条件を持つWhileループ3         |パート 2
+//エージェントに左側にブロックを配置させる            |パート 2        
+//エージェントを前方に移動させる                         |パート 2
+//エージェントに左側にブロックを配置させる            |パート 2        
+//エージェントを後ろに移動させる                            |パート 2
+//エージェントを右に曲げる                           |パート 2                 
+//whileループ3の終了
+//whileループ1の終了                        
 ```

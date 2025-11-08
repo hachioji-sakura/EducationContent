@@ -1,6 +1,6 @@
 ### @explicitHints true
 
-# Activity 1 - Water barrier. 
+# アクティビティ 1 - 水の障壁
 
 ```python
 agent.turn(LEFT_TURN)
@@ -11,20 +11,36 @@ while True:
       pass
 ```
 
-## Step 1
-**Part 1:** Write some code to make the Agent move forward when there is Redstone dust in front of it. 
+## ステップ 1
+**パート 1:** エージェントの前にレッドストーンダストがある時に前進するようなコードを書いてください。
 
-## Step 2 
-**Part 2:** Add a sequence to the code so that the Agent places a two-block high wall to its right as it moves. 
+```ghost
+while agent.detect(AgentDetection.REDSTONE, FORWARD):
+    agent.move(FORWARD, 1) 
+```
+
+## ステップ 2 
+**パート 2:** エージェントが移動しながら右側に2ブロックの高さの壁を配置するようにコードにシーケンスを追加してください。
+
 ### ~ tutorialhint
-You do not have to give the Agent any blocks, it already has the required blocks in its inventory.  
+エージェントにブロックを与える必要はありません。既にインベントリに必要なブロックを持っています。
+
+```ghost  
+while agent.detect(AgentDetection.REDSTONE, FORWARD):
+    agent.place(RIGHT)
+    agent.move(UP, 1)
+    agent.place(RIGHT)
+    agent.move(DOWN, 1)
+    agent.move(FORWARD, 1)                   
+```
+
 ```template
-//Replace the lines below with your code #     
-//While loop with an Agent detect condition |Part 1
-//Make the Agent place a block to its right         |Part 2
-//Make the Agent move up                            |Part 2
-//Make the Agent place a block to its right         |Part 2
-//Make the Agent move back down                     |Part 2:
+//# の行を正しいコードに置きかえましょう。     
+//エージェント検出条件を持つWhileループ      |パート 1
+//エージェントに右側（RIGHT）にブロックを配置させる    |パート 2
+//エージェントを上（UP）に移動させる              |パート 2
+//エージェントに右側にブロックを配置させる    |パート 2
+//エージェントを下（DOWN）に戻らせる                |パート 2:
     agent.move(FORWARD, 1)
-//End of while loop                                
+//whileループの終了                                
 ```

@@ -1,6 +1,6 @@
 ### @explicitHints true
 
-# Activity 1 - One row at a time. 
+# アクティビティ 1 - 一列ずつ 
 
 ```python
 agent.till(RIGHT)
@@ -8,42 +8,40 @@ agent.move(FORWARD, 5)
 agent.set_slot(1)
 ```
 
-## Step 1
-**Part 1:** Write some code to make the Agent move forward while tilling and planting saplings, on the **grass** blocks, to its left. Example of 
-function structure: 
+## ステップ 1
+**パート 1:** エージェントが前進しながら、左側の**草**ブロックを耕し、苗木を植えるようなコードを書いてください。関数の構造例:
 ```python
 def function_name():
     agent.till(RIGHT)
 ```
 
 ### ~ tutorialhint 
-Remember to describe, in a comment, what your function does.  
+関数が何をするかをコメントで説明することを忘れないでください。
 
-## Step 2 
-**Part 2:** Add to the code to make the Agent use fertilizer on the saplings, **6** times each.
+## ステップ 2 
+**パート 2:** エージェントが苗木に肥料を**6**回ずつ使用するようにコードに追加してください。
 ### ~ tutorialhint 
-The Agent has fertilizer in its **second** inventory slot. Switch between the Agent's **first** and **second** slots using the `||agent:set active slot||`
-command.  
+エージェントは**2番目**のインベントリスロットに肥料を持っています。`||agent:set active slot||`コマンドを使用してエージェントの**1番目**と**2番目**のスロットを切り替えてください。  
 
 ```template
-//Replace with your functions below #
-//Replace with comment about function below   |Part 1   
-//Declare your function                       |Part 1
-//Set the Agent's inventory slot to 1                 |Part 2
-//Make the Agent till to its left             |Part 1
-//Make the Agent place a sapling to its left  |Part 1
-//Set the Agent's inventory slot to 2                 |Part 2
-//Make the Agent place fertilizer to its left         |Part 2
-//Make the Agent place fertilizer to its left         |Part 2
-//Make the Agent place fertilizer to its left         |Part 2
-//Make the Agent place fertilizer to its left         |Part 2
-//Make the Agent place fertilizer to its left         |Part 2
-//Make the Agent place fertilizer to its left         |Part 2
-//Replace the lines below with your code #    
+//# の行を正しいコードに置きかえましょう。
+//以下の関数についてのコメントに置き換える   |パート 1   
+//関数を宣言する                       |パート 1
+//エージェントのインベントリスロットを1に設定                 |パート 2
+//エージェントに左側を耕させる             |パート 1
+//エージェントに左側に苗木を配置させる  |パート 1
+//エージェントのインベントリスロットを2に設定                 |パート 2
+//エージェントに左側に肥料を配置させる         |パート 2
+//エージェントに左側に肥料を配置させる         |パート 2
+//エージェントに左側に肥料を配置させる         |パート 2
+//エージェントに左側に肥料を配置させる         |パート 2
+//エージェントに左側に肥料を配置させる         |パート 2
+//エージェントに左側に肥料を配置させる         |パート 2
+//# の行を正しいコードに置きかえましょう。    
 agent.move(FORWARD, 1)
-//Call your function                          |Part 1
-//Make the Agent move forward                 |Part 1
-//Call your function                          |Part 1
-//Make the Agent move forward                 |Part 1
-//Call your function                          |Part 1                 
+//関数を呼び出す                          |パート 1
+//エージェントを前方に移動させる                 |パート 1
+//関数を呼び出す                          |パート 1
+//エージェントを前方に移動させる                 |パート 1
+//関数を呼び出す                          |パート 1                 
 ```

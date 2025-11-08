@@ -1,6 +1,6 @@
 ### @explicitHints true
 ### @hideIteration true 
-# Activity 1 - Game controls.  
+# アクティビティ 1 - ゲームコントロール  
 
 ```python
 agent.move(FORWARD, 5)
@@ -15,22 +15,21 @@ while True:
     pass
 ```
 
-## Step 1
-There are two 'buttons' on the controller, **blue** is to make the Agent move left and **red** is to make the Agent move right. Write a code 
-so that when you stand on the red or blue blocks the Agent moves in the correct direction.  
+## ステップ 1
+コントローラーには2つの「ボタン」があります。**青**はエージェントを左に移動させ、**赤**はエージェントを右に移動させます。赤や青のブロックの上に立ったときにエージェントが正しい方向に移動するようなコードを書いてください。
 
 ### ~ tutorialhint
-A `||loops:while||` loop with the condition set to **True** will repeat continuously. 
+条件を**True**に設定した`||loops:while||`ループは継続的に繰り返します。 
 
 ```template
-//Replace with your functions below #
-//Replace with comment about function below      
-//Declare function                                
-//If conditional with test for block condition (LIGHT_BLUE_CONCRETE)
-//Make the Agent move right
-//Elif conditional with test for block condition (RED_CONCRETE)
-//Make the Agent move left
-//Replace the lines below with your code #    
-//While loop with True as condition 
-//Call function                      
+//# の行を正しいコードに置きかえましょう。
+//以下の関数についてのコメントに置き換える      
+//関数を宣言する                                
+//ブロック条件テストを持つIf条件文 (LIGHT_BLUE_CONCRETE)
+//エージェントを右に移動させる
+//ブロック条件テストを持つElif条件文 (RED_CONCRETE)
+//エージェントを左に移動させる
+//# の行を正しいコードに置きかえましょう。    
+//Trueを条件とするWhileループ 
+//関数を呼び出す                      
 ```

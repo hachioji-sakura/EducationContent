@@ -1,6 +1,6 @@
 ### @explicitHints true
 
-# Activity 3 - Pasture of trees. 
+# アクティビティ 3 - 木の牧草地 
 
 ```python
 agent.turn(RIGHT_TURN)
@@ -18,44 +18,44 @@ elif:
     pass
 ```
 
-## Step 1
-**Part 1:** Write three new functions with different sequences, one to make the Agent **move forward**, one to **turn left**, and one to **turn right**. 
-Then use these functions in a `||loops:for||` loop to make the Agent pass over every block in the area, row by row, until it reaches the gold block.
+## ステップ 1
+**パート 1:** エージェントを**前進**させる、**左に曲げる**、**右に曲げる**という異なるシーケンスを持つ3つの新しい関数を書いてください。
+その後、これらの関数を`||loops:for||`ループで使用して、エージェントが金ブロックに到達するまで、エリア内のすべてのブロックを列ごとに通過するようにしてください。
 
-## Step 2 
-**Part 2:** Add to the code to make the Agent till the grass blocks that it passes over and plant a sapling.
-Do this by adding an `||logic:if else||` conditional, that inspects for grass blocks, in the function that moves the Agent forward. 
+## ステップ 2 
+**パート 2:** エージェントが通過する草ブロックを耕し、苗木を植えるようにコードに追加してください。
+エージェントを前進させる関数内に、草ブロックを検査する`||logic:if else||`条件文を追加してこれを行ってください。 
 
 ```template
-//Place your functions below #  
-//Add to the comment below, as it has now changed             |Part 2
-//Replace with comment about function below           |Part 1    
-//Declare function 1                                  |Part 1
-//For loop 1 set to 9                                 |Part 1
-//If else conditional with Agent inspect condition            |Part 2
-//Add function that plants saplings                           |Part 2
-//Place the command below in the else part of the conditional |Part 2
-//Make the Agent move forward                         |Part 1
-//End of loop 1
-//Replace with comment about function below           |Part 1    
-//Declare function 2                                  |Part 1
-//Make the Agent turn right                           |Part 1
-//Make the Agent move forward                         |Part 1
-//Make the Agent turn right                           |Part 1
-//Replace with comment about function below           |Part 1    
-//Declare function 3                                  |Part 1
-//Make the Agent turn left                            |Part 1
+//# の行を正しいコードに置きかえましょう。  
+//以下のコメントに追加、変更されたため             |パート 2
+//以下の関数についてのコメントに置き換える           |パート 1    
+//関数1を宣言する                                  |パート 1
+//forループ1を9に設定                                 |パート 1
+//エージェント検査条件を持つIf else条件文            |パート 2
+//苗木を植える関数を追加                           |パート 2
+//以下のコマンドを条件文のelse部分に配置 |パート 2
+//エージェントを前方に移動させる                         |パート 1
+//ループ1の終了
+//以下の関数についてのコメントに置き換える           |パート 1    
+//関数2を宣言する                                  |パート 1
+//エージェントを右に曲げる                           |パート 1
+//エージェントを前方に移動させる                         |パート 1
+//エージェントを右に曲げる                           |パート 1
+//以下の関数についてのコメントに置き換える           |パート 1    
+//関数3を宣言する                                  |パート 1
+//エージェントを左に曲げる                            |パート 1
     agent.move(FORWARD, 1)
-//Make the Agent turn left                            |Part 1
-//Replace with comment about function below                   |Part 2 
-//Declare function 4                                          |Part 2
-//Make the Agent move forward                                 |Part 2
-//Make the till back                                          |Part 2
-//Make the place back                                         |Part 2
-//Replace the lines below with your code #
-//For loop 2 set to 4                                 |Part 1
-//Call function to make Agent move forward            |Part 1
-//Call function to make Agent turn right              |Part 1
-//Call function to make Agent move forward            |Part 1
-//Call function to make Agent turn left               |Part 1                       
+//エージェントを左に曲げる                            |パート 1
+//以下の関数についてのコメントに置き換える                   |パート 2 
+//関数4を宣言する                                          |パート 2
+//エージェントを前方に移動させる                                 |パート 2
+//後方を耕させる                                          |パート 2
+//後方に配置させる                                         |パート 2
+//# の行を正しいコードに置きかえましょう。
+//forループ2を4に設定                                 |パート 1
+//エージェントを前進させる関数を呼び出す            |パート 1
+//エージェントを右に曲げる関数を呼び出す              |パート 1
+//エージェントを前進させる関数を呼び出す            |パート 1
+//エージェントを左に曲げる関数を呼び出す               |パート 1                       
 ```

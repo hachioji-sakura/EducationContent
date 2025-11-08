@@ -1,6 +1,6 @@
 ### @explicitHints true
 ### @hideIteration true 
-# Activity 2 - Firebreak. 
+# アクティビティ 2 - 防火帯
 
 ```python
 agent.turn(LEFT_TURN)
@@ -11,21 +11,21 @@ while True:
       pass
 ```
 
-## Step 1
-Write some code to make the Agent move forward when there is Redstone dust in front of it.
-While moving forward the Agent should make a one-block high wall to its left.
-When it encounters a change in terrain height the Agent needs to move up and continue the wall.
+## ステップ 1
+エージェントの前にレッドストーンダストがある時に前進するようなコードを書いてください。
+前進中にエージェントは左側に1ブロックの高さの壁を作る必要があります。
+地形の高さの変化に遭遇した時、エージェントは上に移動して壁を継続する必要があります。
 
 ```template
-//Replace the lines below with your code #
-//While loop 1 with an Agent detect Redstone condition 
-//While loop 2 with an Agent detect block condition 
+//# の行を正しいコードに置きかえましょう。
+//エージェント検出レッドストーン条件を持つWhileループ1 
+//エージェント検出ブロック条件を持つWhileループ2 
 agent.place(LEFT)
-//Make the Agent move up                            
-//Make the Agent place a block to its left         
-//Make the Agent move forward
-//End of while loop 2
-//Make the Agent place a block to its left         
-//Make the Agent move forward
-//End while loop 1                         
+//エージェントを上に移動させる                            
+//エージェントに左側にブロックを配置させる         
+//エージェントを前方に移動させる
+//whileループ2の終了
+//エージェントに左側にブロックを配置させる         
+//エージェントを前方に移動させる
+//whileループ1の終了                         
 ```

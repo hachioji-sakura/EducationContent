@@ -1,6 +1,6 @@
 ### @explicitHints true
 
-# Diamond or dirt?
+# ダイヤモンドか土か？
 
 ```python
 agent.move(FORWARD, 5)
@@ -25,7 +25,7 @@ while True:
     pass
 ```
 
-## Step 1
-Calculate these four sums using code. You need to get the Agent to the gold block, do this by placing a diamond or dirt block depending on the answer of the sums.  If the answer is 1 place a diamond block, if its 0 place a dirt block. 
+## ステップ 1
+コードを使用してこれら4つの合計を計算してください。エージェントを金ブロックまで連れて行く必要があります。合計の答えに応じてダイヤモンドまたは土ブロックを配置してこれを行ってください。答えが1の場合はダイヤモンドブロックを、0の場合は土ブロックを配置してください。 
 
 
