@@ -1,8 +1,8 @@
-# Chopping Trees: Python
+# 木の伐採: Python
 
-## Step 1
+## ステップ 1
 
-Create an ``||player:on chat||`` command and name it **"tp"**.
+``||player:on chat||`` コマンドを作成し、**"tp"** と名前を付けてください。
 
 ```python
 def on_chat():
@@ -10,9 +10,9 @@ def on_chat():
 player.on_chat("tp", on_chat)
 ```
 
-## Step 2
+## ステップ 2
 
-Inside the ``||player:chat||`` command, code the agent to ``||agent:teleport||`` to the player.
+``||player:chat||`` コマンドの中で、エージェントがプレイヤーに ``||agent:teleport||`` するようにコードを書いてください。
 
 ```python
 def on_chat2():
@@ -20,9 +20,9 @@ def on_chat2():
 player.on_chat("tp", on_chat)
 ```
 
-## Step 3
+## ステップ 3
 
-Create another ``||player:chat||`` command and name it **"chop"**.
+別の ``||player:chat||`` コマンドを作成し、**"chop"** と名前を付けてください。
 
 ```python
 def on_chat3():
@@ -30,9 +30,9 @@ def on_chat3():
 player.on_chat("chop", on_chat)
 ```
 
-## Step 4
+## ステップ 4
 
-Create a new ``||variable:variable||``, name it **height**, and set it to **0**.
+新しい ``||variable:variable||`` を作成し、**height** と名前を付け、**0** に設定してください。
 
 ```python
 height = 0
@@ -47,9 +47,9 @@ def on_chat3():
 player.on_chat("chop", on_chat3)
 ```
 
-## Step 5
+## ステップ 5
 
-Inside the **chop** ``||player:on chat||`` command—directly under the **height** variable—create a ``||loops:while||`` loop that begins with: **while the agent detects a block forward**.
+**chop** ``||player:on chat||`` コマンドの中で、**height** 変数の直下に、**エージェントが前方にブロックを検出している間** から始まる ``||loops:while||`` ループを作成してください。
 
 ```python
 def on_chat3():
@@ -59,9 +59,9 @@ def on_chat3():
 player.on_chat("chop", on_chat3)
 ```
 
-## Step 6
+## ステップ 6
 
-Add a ``||loops:while||`` loop to change the **height** ``||variable:variable||`` to the value of **height plus 1**.
+``||loops:while||`` ループに、**height** ``||variable:variable||`` を **height プラス 1** の値に変更する処理を追加してください。
 
 ```python
     while agent.detect(AgentDetection.BLOCK, FORWARD):
@@ -69,11 +69,11 @@ Add a ``||loops:while||`` loop to change the **height** ``||variable:variable||`
 player.on_chat("chop", on_chat3)
 ```
 
-## Step 7
+## ステップ 7
 
-In the ``||loops:while||`` loop—under the change variable **height**—code the agent to  **destroy up**. 
+``||loops:while||`` ループの中で、変数 **height** の変更の下に、エージェントが **上方向を破壊** するようにコードを書いてください。
 
-Also, add a line to have the **agent move up by 1**.
+また、**エージェントが上に1移動** する行も追加してください。
 
 ```python
         height += 1
@@ -82,17 +82,17 @@ Also, add a line to have the **agent move up by 1**.
 player.on_chat("chop", on_chat3)
 ```
 
-## Step 8
+## ステップ 8
 
-Add a ``||loops:for||`` loop after the ``||loops:while||`` loop. Insert the **height** variable into the **times** argument of the ``||loops:repeat||`` loop.
+``||loops:while||`` ループの後に ``||loops:for||`` ループを追加してください。``||loops:repeat||`` ループの **times** 引数に **height** 変数を挿入してください。
 
 ```python
     for index in range(height):
 ```
 
-## Step 9
+## ステップ 9
 
-Inside the ``||loops:for||`` loop,  add a line for **agent move down by 1** and **agent destroy forward**.
+``||loops:for||`` ループの中に、**エージェントが下に1移動** と **エージェントが前方を破壊** の行を追加してください。
 
 ```python
     for index in range(height):
@@ -101,9 +101,9 @@ Inside the ``||loops:for||`` loop,  add a line for **agent move down by 1** and 
     player.on_chat("chop", on_chat3)
 ```
 
-## Step 10
+## ステップ 10
 
-After the ``||loops:for||`` loop , code the agent to ``||agent:collect all||`` .
+``||loops:for||`` ループの後に、エージェントが ``||agent:collect all||`` するようにコードを書いてください。
 
 ```python
     for index in range(height):
@@ -113,9 +113,9 @@ After the ``||loops:for||`` loop , code the agent to ``||agent:collect all||`` .
 player.on_chat("chop", on_chat3)
 ```
 
-## Step 11
+## ステップ 11
 
-Go into Minecraft, type **t** and test out the **tp**, and **chop** chat commands. 
+Minecraftに入り、**t** を入力して **tp** と **chop** チャットコマンドをテストしてください。 
 
 ```python
 def on_chat(): 
