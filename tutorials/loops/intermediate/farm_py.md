@@ -1,7 +1,12 @@
 # Farm: Python
 
-## Step 1
-Code an ``||player: on chat||`` command and name it **tp**. Code the agent ``||agent:to teleport to player||``. 
+## 農場を作ろう @showdialog
+このチュートリアルでは、2重のfor文を使う練習をします。
+農場を作るためのコードを書いてみましょう。
+
+## ステップ 1
+``||player:チャットコマンドを実行した時||`` のイベントを作成して、チャットコマンドに **tp** と入力された場合のコードを作成します。
+そして、``||agent:エージェントをプレイヤーの位置にテレポートする||`` をコードを関数の中に追加します。
 
 ```python
 def on_chat():
@@ -10,7 +15,7 @@ player.on_chat("tp", on_chat)
 ```
 
 ## Step 2
-Code an ``||player:on chat||`` command and name it **farm**.
+``||player:チャットコマンドを実行した時||`` のイベントを追加して、名前を **farm** (ファーム) にします。
 
 ```python
 def on_chat():
@@ -19,7 +24,7 @@ player.on_chat("farm", on_chat)
 ```
 
 ## Step 3
-Code the ``||agent:agent||`` to set **carrots** at the count of **64** in slot **1**. 
+``||agent:エージェントにアイテムを持たせる||`` コードを使用して、**64** 個の **キャロット** (CARROTS) をスロット **1** に設定します。
 
 ```python
 def on_chat():
@@ -28,7 +33,7 @@ player.on_chat("farm", on_chat)
 ```
 
 ## Step 4
-Code a ``|loops:for||`` loop that repeats **2** times. 
+``||loops:for||`` ループを使用して、**2** 回繰り返すコードを書いてください。
 
 ```python
 def on_chat():
@@ -39,7 +44,7 @@ player.on_chat("farm", on_chat)
 ```
 
 ## Step 5
-Inside the ``||loops:for||`` loop, code the ``||agent:agent||`` to move **back by 7**.
+``||loops:for||`` ループの中で、``||agent:エージェントを移動させる||`` コードを使用して、後ろ（**BACK**）へ **7** ブロック、移動します。
 
 ```python
 def on_chat():
@@ -50,7 +55,7 @@ player.on_chat("farm", on_chat)
 ```
 
 ## Step 6
-After the ``||agent:agent move||`` **back**, code the ``||agent||`` to move **right by 4**.
+``||agent:エージェントを移動させる||`` コードを使用して、右（**RIGHT**）へ **4** ブロック移動します。
 
 ```python
 def on_chat():
@@ -62,7 +67,7 @@ player.on_chat("farm", on_chat)
 ```
 
 ## Step 7
-Code a ``||loops:for||`` loop that repeats **7** times. Place it inside the first ``||loops:for||`` loop but above the ``||agent:agent move||`` move back code.
+``||loops:for||`` ループを使用して、**7** 回繰り返すコードを追加してください。最初の ``||loops:for||`` ループの中かつ、``||agent:エージェントを移動させる||`` コードの前に追加します。
 
 ```python
 def on_chat():
@@ -76,7 +81,7 @@ player.on_chat("farm", on_chat)
 ```
 
 ## Step 8
-Inside the inner ``||loops:for||`` loop, code a ``||agent:till||`` to till **forward**. 
+``||loops:for||`` ループの中で、``||agent:エージェントに耕させる||`` コードを使用して、前（**FORWARD**）へ耕します。 
 
 ```python
 def on_chat():
@@ -90,7 +95,7 @@ player.on_chat("farm", on_chat)
 ```
 
 ## Step 9
-After the ``||agent:till||``, code the ``||agent||`` to move **forward by 1** .
+``||agent:エージェントを移動させる||`` コードを使用して、前（**FORWARD**）へ **1** ブロック移動します。
 
 ```python
 def on_chat():
@@ -105,7 +110,7 @@ player.on_chat("farm", on_chat)
 ```
 
 ## Step 10
-After the ``||agent:move||`` forward, code to have the ``||agent:place||`` down. 
+``||agent:エージェントを移動させる||`` コードを使用して、下（**DOWN**）へ **1** ブロック移動します。
 
 ```python
 def on_chat():
@@ -121,7 +126,7 @@ player.on_chat("farm", on_chat)
 ```
 
 ## Step 11
-Press the **Play** button, go into Minecraft and test out all the events.
+緑の実行ボタンを押し、Minecraftでコードをテストしてください。
 
 ```python
 def on_chat():
