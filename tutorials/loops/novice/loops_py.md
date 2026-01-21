@@ -1,7 +1,14 @@
-# Loops: Python
+# ループ: Python
 
-## Step 1
-Code an ``||player:on item used||`` event and set it to  **Bone**.
+## for文（初級） @showdialog
+
+for文を使って、くり返すコードを書く練習をしましょう。
+
+アイテムを使ったらたくさんのモブが出現するコードを書いてみましょう。
+
+
+## ステップ 1
+``||player:アイテムが使用された時||`` のコードを使用して、アイテムを**骨**（BONE） に設定してください。
 
 ```python
 def item_interacted_bone():
@@ -9,8 +16,8 @@ def item_interacted_bone():
 player.on_item_interacted(BONE, item_interacted_bone)
 ```
 
-## Step 2
-Within the ``||player: on item used||`` event, code a ``||loops:for||`` loop, that repeats **6** times.
+## ステップ 2
+``||player: アイテムが使用された時||`` のイベントの関数内に、 ``||loops:for||`` ループを使用して**6** 回繰り返えすコードを書いてください。
 
 ```python
 def item_interacted_bone():
@@ -19,8 +26,8 @@ def item_interacted_bone():
 player.on_item_interacted(BONE, item_interacted_bone)
 ```
 
-## Step 3
-Inside the ``||loops:for||`` loop, spawn a **Zombie Horse** at (0,0,0).
+## ステップ 3
+``||loops:for||`` ループの中で、位置(0,0,0) に **ゾンビホース** (ZOMBIE_HORSE) をスポーンしてください。
 
 ```python
 def item_interacted_bone():
@@ -29,8 +36,8 @@ def item_interacted_bone():
 player.on_item_interacted(BONE, item_interacted_bone)
 ```
 
-## Step 4
-Code another ``||loops:for||`` loop inside the **Bone** ``||player:on item used||`` that repeats **4** times.
+## ステップ 4
+別の``||loops:for||`` ループを追加して、今度は **4** 回繰り返すコードを書いてください。
 
 ```python
 def item_interacted_bone():
@@ -41,8 +48,8 @@ def item_interacted_bone():
 player.on_item_interacted(BONE, item_interacted_bone)
 ```
 
-## Step 5
-Inside the ``||loops:for||`` loop, spawn a **skeleton horse** at (0,0,0).  
+## ステップ 5
+``||loops:for||`` ループの中で、位置(0,0,0) に **スケルトンホース** (SKELETON_HORSE) をスポーンしてください。  
 
 ```python
 def item_interacted_bone():
@@ -53,8 +60,8 @@ def item_interacted_bone():
 player.on_item_interacted(BONE, item_interacted_bone)
 ```
 
-## Step 6
-Press the Play button, go into Minecraft and test out all the events.
+## ステップ 6
+緑の実行ボタンを押し、Minecraftでコードをテストしてください。
 
 ```python
 def item_interacted_bone():

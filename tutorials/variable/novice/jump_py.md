@@ -1,7 +1,7 @@
-# Mega Jump: Python
+# メガジャンプ: Python
 
-## Step 1
-Add an ``||player:on chat||`` command named **“jump”**.
+## ステップ 1
+**"jump"** という名前の ``||player:on chat||`` コマンドを追加してください。
 
 ```python
 def on_chat():
@@ -9,9 +9,9 @@ def on_chat():
 player.on_chat("jump", on_chat)
 ```
 
-## Step 2
+## ステップ 2
 
-Add the code in the ``||player:chat||`` command to ``||player:teleport||`` the player to the position **(0,100,0)** (which is 100 blocks higher than the current position). 
+``||player:chat||`` コマンドの中に、プレイヤーを位置 **(0,100,0)** （現在の位置より100ブロック高い位置）に ``||player:teleport||`` するコードを追加してください。
 
 ```python
 def on_chat(): 
@@ -19,14 +19,14 @@ def on_chat():
 player.on_chat("jump", on_chat) 
 ```
 
-## Step 3
+## ステップ 3
 
-Try it out in Minecraft by typing jump in the chat.  
+Minecraftでチャットに jump と入力して試してみてください。
 
 
-## Step 4
+## ステップ 4
 
-Add a ``||variable: variable||`` named **num1** to the “jump” chat command.   
+"jump" チャットコマンドに **num1** という名前の ``||variables: variable||`` を追加してください。
 
 ```python
 def on_chat(num1): 
@@ -34,9 +34,9 @@ def on_chat(num1):
 player.on_chat("jump", on_chat) 
 ```
 
-## Step 5
+## ステップ 5
 
-Change the **100** in the ``||player:teleport||`` position to the ``||variable:variable||`` **num1**. 
+``||player:teleport||`` にある **100** を ``||variables:variable||`` **num1** に変更してください。
 
 ```python
 def on_chat(num1):
@@ -44,9 +44,9 @@ def on_chat(num1):
 player.on_chat("jump", on_chat) 
 ```
 
-## Step 6
+## ステップ 6
 
-Try it out in Minecraft by entering jump and then any number in the chat.  (Example jump 50, or jump 100). 
+Minecraftでチャットに jump と任意の数字を入力して試してみてください。（例：jump 50、または jump 100） 
 
 ```python
 def on_chat(num1):
